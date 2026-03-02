@@ -228,66 +228,62 @@ modded class PS_MissionDataManager
             PS_PlayableComponent playableComp = playable.GetPlayableComponent();
             if (!playableComp)
                 continue;
-            
-            SCR_CharacterDamageManagerComponent dmg = playableComp.GetCharacterDamageManagerComponent();
-            if (dmg)
-            {
-                dmg.GetOnDamageStateChanged().Insert(OnPlayableDamageStateChanged);
-            }
         }
     }
-    
-    // Сохраняем map для отслеживания уже записанных смертей
-    protected ref set<RplId> m_RecordedDeaths = new set<RplId>();
-    
-    void OnPlayableDamageStateChanged(EDamageState state)
-    {
-        if (state != EDamageState.DESTROYED)
-            return;
-        
-        PS_PlayableManager playableManager = PS_PlayableManager.GetInstance();
-        if (!playableManager)
-            return;
-        
-        array<PS_PlayableContainer> playables = playableManager.GetPlayablesSorted();
-        foreach (PS_PlayableContainer playable : playables)
-        {
-            PS_PlayableComponent playableComp = playable.GetPlayableComponent();
-            if (!playableComp)
-                continue;
-            
-            SCR_CharacterDamageManagerComponent dmg = playableComp.GetCharacterDamageManagerComponent();
-            if (!dmg || !dmg.IsDestroyed())
-                continue;
-            
-            RplId playableRplId = playableComp.GetRplId();
-            
-            // Уже записали эту смерть
-            if (m_RecordedDeaths.Contains(playableRplId))
-                continue;
-            
-            int playerId = playableManager.GetPlayerByPlayable(playableRplId);
-            if (playerId <= 0)
-                continue;
-            
-            m_RecordedDeaths.Insert(playableRplId);
-            
-            // Получаем killer через Instigator из damage manager
-            Instigator killer = dmg.GetInstigator();
-            int killerId = -1;
-            if (killer)
-                killerId = killer.GetInstigatorPlayerID();
-            
-            Print(string.Format("PLAYER DIED: %1 (killed by %2)", playerId, killerId), LogLevel.WARNING);
+	
+	override void OnDamaged(BaseDamageContext damageContext)
+	{
+		IEntity target = damageContext.hitEntity;
+		Instigator instigator = damageContext.instigator;
+		if (target && instigator)
+		{
+			int playerId = instigator.GetInstigatorPlayerID();
+			if (playerId == -1)
+				return;
+			
+			EntityID entityID = target.GetID();
+			if (!m_EntityToRpl.Contains(entityID))
+				return;
+			RplId rplId = m_EntityToRpl.Get(entityID);
+			
+			IEntity instigatorEntity = instigator.GetInstigatorEntity();
+			vector instigatorOrigin = instigatorEntity.GetOrigin();
+			vector targetOrigin = target.GetOrigin();
+			float distance = vector.Distance(instigatorOrigin, targetOrigin);
+			
+			GetGame().GetCallqueue().Call(SaveDamageEventWithDistance, playerId, rplId, damageContext.damageValue, distance);
+		}
+	}
+	
+	void SaveDamageEventWithDistance(int playerId, RplId targetId, float value, float distance)
+	{
+		SCR_DamageManagerComponent damageManagerComponent = m_RplToDamageManager.Get(targetId);
+		EDamageState state = damageManagerComponent.GetState();
+		float time = GetGame().GetWorld().GetWorldTime();
+		distance = Math.Round(distance);
+		
+		PS_MissionDataDamageEvent missionDataDamageEvent = new PS_MissionDataDamageEvent();
+		missionDataDamageEvent.m_iPlayerId = playerId;
+		missionDataDamageEvent.TargetId = targetId;
+		missionDataDamageEvent.DamageValue = value;
+		missionDataDamageEvent.TargetState = state;
+		missionDataDamageEvent.Time = time;
+		missionDataDamageEvent.Distance = distance;
+		m_Data.DamageEvents.Insert(missionDataDamageEvent);
+		
+		if (state == EDamageState.DESTROYED)
+		{ 
+            Print(string.Format("PLAYER DIED: %1 (killed by %2)", targetId, playerId), LogLevel.WARNING);
             
             PS_MissionDataPlayerKill killData = new PS_MissionDataPlayerKill();
-            killData.m_iPlayerId = playerId;
-            killData.InstigatorId = killerId;
-            killData.Time = GetGame().GetWorld().GetWorldTime();
+            killData.m_iPlayerId = targetId;
+            killData.InstigatorId = playerId;
+            killData.Time = time;
             killData.SystemTime = System.GetUnixTime();
+			killData.Distance = distance;
             m_Data.Kills.Insert(killData);
-        }
-    }
+		}
+	}
 	
 	override void OnGameStateChanged(SCR_EGameModeState state)
 	{
@@ -358,4 +354,14 @@ modded class PS_MissionDataConfig
 	string ScenarioType;
 	string Token;
 	string SessionName;
+}
+
+modded class PS_MissionDataDamageEvent
+{
+	float Distance;
+}
+
+modded class PS_MissionDataPlayerKill
+{
+	float Distance;
 }
