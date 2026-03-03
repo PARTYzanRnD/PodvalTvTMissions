@@ -49,8 +49,8 @@ GenericEntity : "{A4D90CAA4F220CBE}Prefabs/Structures/Military/Flags/FlagPole_02
     SCR_ResourceComponent "{5D247A59598D71AE}" {
      m_aContainers {
       SCR_ResourceContainer "{5D3CDAE74F1A6127}" {
-       m_fResourceValueCurrent 1000
-       m_fResourceValueMax 1000
+       m_fResourceValueCurrent 3000
+       m_fResourceValueMax 3000
       }
      }
     }
