@@ -47,7 +47,8 @@ $grp GenericEntity : "{F5EF4223ACA6169D}PrefabsEditable/Auto/Structures/Military
     }
    }
   }
-  coords 4991.726 341.145 9920.638
+  coords 5011.268 340.969 9934.407
+  angles -0.007 113.251 0.219
  }
  {
   components {

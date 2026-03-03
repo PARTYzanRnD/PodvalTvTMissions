@@ -78,7 +78,7 @@ $grp SCR_AIGroup : "{EB131DDF464F90FD}Prefabs/Groups/OPFOR/RHS_AFRF/Regular/Grou
   m_aUnitPrefabSlots {
    "{581C5812DD6A8A4F}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Recon/Char_RHS_AFRF_Recon_SL.et"
    "{2504B4EAB8F9B6D6}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Recon/Char_RHS_AFRF_Recon_SR.et"
-   "{B80041ECF565397A}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Recon/Char_RHS_AFRF_Recon_Sapper.et"
+   "{87927E73B0E976C2}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Recon/Char_RHS_AFRF_Recon_RPO.et"
    "{3841D72C18594176}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Recon/Char_RHS_AFRF_Recon_GL.et"
    "{18E5431BC976B948}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/GRU/Ligth/Char_RHS_AFRF_GRU_Sniper.et"
   }
@@ -200,7 +200,7 @@ $grp SCR_AIGroup : "{EB131DDF464F90FD}Prefabs/Groups/OPFOR/RHS_AFRF/Regular/Grou
   m_aUnitPrefabSlots {
    "{581C5812DD6A8A4F}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Recon/Char_RHS_AFRF_Recon_SL.et"
    "{2504B4EAB8F9B6D6}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Recon/Char_RHS_AFRF_Recon_SR.et"
-   "{B80041ECF565397A}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Recon/Char_RHS_AFRF_Recon_Sapper.et"
+   "{87927E73B0E976C2}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Recon/Char_RHS_AFRF_Recon_RPO.et"
    "{3841D72C18594176}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Recon/Char_RHS_AFRF_Recon_GL.et"
    "{18E5431BC976B948}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/GRU/Ligth/Char_RHS_AFRF_GRU_Sniper.et"
   }
