@@ -516,7 +516,7 @@ $grp GUB_DefendPointEntity : "{C7CE0DC3D5144B7D}Prefabs/System/MissionRandomizer
  {
   coords 2729.825 24.656 5592.731
   angles 0 0 0
-  m_sFlagName "FLAG_MILITARY_3"
+  m_sFlagName "FLAG_MILITARY_4"
   {
    $grp GUB_SpawnPointEntity : "{0DCCBC83322A0A0D}Prefabs/System/MissionRandomizer/SpawnPointEntity.et" {
     SQUAD_21 {
