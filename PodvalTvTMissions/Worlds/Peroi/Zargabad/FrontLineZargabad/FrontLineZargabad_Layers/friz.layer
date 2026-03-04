@@ -16,10 +16,6 @@ $grp SCR_EditorRestrictionZoneEntity : "{EF72FA7CD87618D5}PrefabsEditable/Restri
   angles -0.007 -0.07 -5.356
  }
  {
-  coords 5096.652 34.16 4878.913
-  angles -18.31 -7.392 15.698
- }
- {
   coords 4167.017 15.562 4690.247
   angles 0 -0.447 0
  }

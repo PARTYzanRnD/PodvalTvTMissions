@@ -27,7 +27,9 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "ЧСО:"\
   ""\
-  "Запрещено таранить вертолетом Диспетчерскую вышку и Стройку."
+  "Запрещено таранить вертолетом Диспетчерскую вышку и Стройку."\
+  ""\
+  "M2 Bradley запрещено стрелять из TOW (ПТУР) по Диспетчерской вышке и Стройке."
   m_aVisibleForFactions {
    "RHS_AFRF"
    "Ses_CDF"
@@ -50,7 +52,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
 }
 $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
  {
-  coords 4991.781 341.145 9920.667
+  coords 5011.284 340.932 9934.387
   angles 0 82.109 0
   m_sImageSetGlow ""
   m_MarkerColor 0 0 0 1

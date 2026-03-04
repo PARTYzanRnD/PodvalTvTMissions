@@ -6,7 +6,9 @@ PolylineShapeEntity : "{BD11B8FAA469D169}Prefabs/PolyZone/PolyZone.et" {
    m_mPolygonTextureBorder "{CA01D453D39FB430}UI/layouts/Textures/ZoneBorder.edds"
    m_cPolygonBorderColor 0.502 0 0 1
    m_aVisibleForFactions {
-    "" "RHS_USAF" "RHS_AFRF"
+    ""
+    "RHS_USAF"
+    "RHS_AFRF"
    }
   }
  }
@@ -133,4 +135,20 @@ PolylineShapeEntity : "{BD11B8FAA469D169}Prefabs/PolyZone/PolyZone.et" {
    Position 25.878 -3.398 35.755
   }
  }
+}
+PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ coords 5995.375 44.563 4812.923
+ angles 0 90.546 0
+ m_sImageSetGlow ""
+ m_MarkerColor 0 0 0 1
+ m_sQuadName "mark-exclamation"
+ m_fWorldSize 50
+ m_sDescription "Боевой Вертолет"
+ m_bUseWorldScale 0
+ m_aVisibleForFactions {
+  ""
+  "RHS_USAF"
+  "RHS_AFRF"
+ }
+ m_bVisibleForEmptyFaction 1
 }

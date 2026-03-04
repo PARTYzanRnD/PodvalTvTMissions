@@ -1416,6 +1416,46 @@ $grp GenericEntity : "{795552B887CD50E7}Prefabs/Props/Industrial/ConcretePanel_0
   coords 4701.521 327.406 10242.263
   angles 0 -16.732 0
  }
+ {
+  coords 5006.632 340.016 9915.004
+  angles 1 -87.237 0.781
+ }
+ {
+  coords 5024.692 340.09 9909.951
+  angles 0.631 -81.5 -0.822
+ }
+ {
+  coords 5001.71 340.142 9923.962
+  angles 0.638 -119.107 -0.621
+ }
+ {
+  coords 5024.001 336.106 9903.077
+  angles 0.565 -81.352 -0.926
+ }
+ {
+  coords 5015.978 336.162 9913.205
+  angles 0 -90.835 0
+ }
+ {
+  coords 5001.638 336.161 9916.132
+  angles -0.203 -121.106 -0.015
+ }
+ {
+  coords 5000.127 332.14 9903.116
+  angles -0.02 178.106 0.031
+ }
+ {
+  coords 5017.84 332.149 9888.841
+  angles 0.009 -33.103 0.006
+ }
+ {
+  coords 5032.453 328.074 9899.849
+  angles 2.086 -77.093 0.122
+ }
+ {
+  coords 5004.994 327.406 9944.871
+  angles 0 -119.1 0
+ }
 }
 $grp Tree : "{7FAB7F6C07302D10}Prefabs/Vegetation/Tree/t_sorbus_aucuparia/t_sorbus_aucuparia_1w.et" {
  {
@@ -1698,6 +1738,10 @@ $grp GenericEntity : "{B292AEB29FA68532}PrefabLibrary/DefaultLibrary/Props/Const
  {
   coords 4710.971 327.406 10214.49
   angles 0 -56.777 0
+ }
+ {
+  coords 5011.525 340.135 9925.923
+  angles 0.244 -0 -0.16
  }
 }
 $grp GenericEntity : "{B90CA0BEF3CC1D19}Prefabs/Structures/Military/CamoNets/Soviet/CamoNet_Medium_Soviet.et" {
