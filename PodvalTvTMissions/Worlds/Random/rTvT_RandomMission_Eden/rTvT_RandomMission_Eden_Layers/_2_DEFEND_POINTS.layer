@@ -1,0 +1,58 @@
+GUB_DefendPointEntity : "{C7CE0DC3D5144B7D}Prefabs/System/MissionRandomizer/DefendPointEntity.et" {
+ coords 7503.689 165.75 4281.415
+ angles 0 0 0
+ m_sFlagName "FLAG_LEVIEMILITARY"
+ {
+  $grp GUB_SpawnPointEntity : "{0DCCBC83322A0A0D}Prefabs/System/MissionRandomizer/SpawnPointEntity.et" {
+   COMMAND_1 {
+    coords 13.511 0.395 0.11
+    angles 0 -167.706 0
+    m_eGroupType Command_7
+   }
+   SQUAD_1 {
+    coords -26.182 -1.18 60.63
+    angles 0 102.276 0
+    m_iCompanyCallsign 1
+   }
+   SQUAD_2 {
+    coords 62.384 0.406 -31.811
+    angles 0 12.924 0
+    m_iCompanyCallsign 1
+    m_iSquadCallsign 1
+   }
+   MOTORIZED_1 {
+    coords 70.02 1.094 20.529
+    angles 0 16.163 0
+    m_eGroupType Motorized
+    m_iCompanyCallsign 2
+   }
+   RECON_1 {
+    coords 26.892 -1.13 101.749
+    angles 0 94.384 0
+    m_eGroupType Recon
+    m_iCompanyCallsign 3
+   }
+   RECON_2 {
+    coords 0.962 1.078 -98.456
+    angles 0 -87.548 0
+    m_eGroupType Recon
+    m_iCompanyCallsign 3
+    m_iSquadCallsign 1
+   }
+   RECON_3 {
+    coords 23.596 -0.596 86.672
+    angles 0 106.134 0
+    m_eGroupType Recon
+    m_iCompanyCallsign 3
+    m_iSquadCallsign 2
+   }
+   SNIPER_4 {
+    coords 25.444 1.094 -42.157
+    angles 0 103.643 0
+    m_eGroupType Sniper
+    m_iCompanyCallsign 4
+    m_iSquadCallsign 1
+   }
+  }
+ }
+}

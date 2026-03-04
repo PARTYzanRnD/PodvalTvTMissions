@@ -1,0 +1,84 @@
+GUB_AttackPointEntity : "{515A2B3BE5819F70}Prefabs/System/MissionRandomizer/AttackPointEntity.et" {
+ coords 7881.783 142.83 5215.052
+ angles 0 0 0
+ {
+  $grp GUB_SpawnPointEntity : "{0DCCBC83322A0A0D}Prefabs/System/MissionRandomizer/SpawnPointEntity.et" {
+   COMMAND_2 {
+    coords 24.147 -3.849 -20.549
+    angles 0 -151.681 0
+    m_eGroupType Command_1
+   }
+   SQUAD_3 {
+    coords 39.288 -3.912 9.171
+    angles 0 -151.681 0
+    m_iCompanyCallsign 1
+   }
+   MOTORIZED_3 {
+    coords 54.479 -3.694 40.925
+    angles 0 -151.681 0
+    m_eGroupType Motorized
+    m_iCompanyCallsign 2
+   }
+   MOTORIZED_4 {
+    coords -2.834 -2.648 -67.907
+    angles 0 -151.681 0
+    m_eGroupType Motorized
+    m_iCompanyCallsign 2
+    m_iSquadCallsign 1
+   }
+   RECON_4 {
+    coords 340.352 -8.58 259.218
+    angles 0 147.391 0
+    m_eGroupType Recon
+    m_iCompanyCallsign 3
+   }
+   RECON_5 {
+    coords -200.498 52.955 134.036
+    angles 0 -69.184 0
+    m_eGroupType Recon
+    m_iCompanyCallsign 3
+    m_iSquadCallsign 1
+   }
+   RECON_6 {
+    coords -46.997 -8.686 -380.323
+    angles 0 -73.975 0
+    m_eGroupType Recon
+    m_iCompanyCallsign 3
+    m_iSquadCallsign 2
+   }
+   HELICOPTER_ATTACK_1 {
+    coords -63.878 4.347 -73.148
+    angles 0 -163.648 0
+    m_eGroupType Helicopter_Attack
+    m_iCompanyCallsign 5
+   }
+   HELICOPTER_RECON_1 {
+    coords -70.115 5.367 -71.319
+    angles 0 -163.648 0
+    m_eGroupType Helicopter_Recon
+    m_iCompanyCallsign 4
+   }
+   MOTORIZED_5 {
+    coords 19.563 -0.101 38.072
+    angles 0 -151.681 0
+    m_eGroupType Motorized
+    m_iCompanyCallsign 2
+    m_iSquadCallsign 2
+   }
+   HELICOPTER_ATTACK_17 {
+    coords -53.676 5.114 -39.342
+    angles 0 -163.648 0
+    m_eGroupType Helicopter_Attack
+    m_iCompanyCallsign 5
+    m_iSquadCallsign 1
+   }
+   HELICOPTER_RECON_17 {
+    coords -59.913 6.084 -37.513
+    angles 0 -163.648 0
+    m_eGroupType Helicopter_Recon
+    m_iCompanyCallsign 4
+    m_iSquadCallsign 1
+   }
+  }
+ }
+}
