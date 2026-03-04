@@ -8,9 +8,11 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "США:"\
   ""\
-  "..."
+  "Вертолетами могут управлять только пилоты"
   m_aVisibleForFactions {
-   "" "RHS_USAF" "RHS_AFRF"
+   ""
+   "RHS_USAF"
+   "RHS_AFRF"
   }
   m_bEmptyFactionVisibility 1
  }
@@ -25,19 +27,21 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "Нужно уничтожить 3 бензовоза."
   m_aVisibleForFactions {
-   "" "RHS_USAF" "RHS_AFRF"
+   ""
+   "RHS_USAF"
+   "RHS_AFRF"
   }
   m_bEmptyFactionVisibility 1
  }
  {
   coords 3241.678 0 149.999
-  angleX -6.695
-  angleY -23.945
-  angleZ -1.897
+  angles -6.695 -23.945 -1.897
   m_sTitle "Описание Миссии"
   m_sTextData "ВС РФ закрепились в городе Суркула, они у них осталось мало топлива для отступления. США нужно уничтожить бензовозы, чтобы ВС РФ не смогли покинуть остров."
   m_aVisibleForFactions {
-   "" "RHS_USAF" "RHS_AFRF"
+   ""
+   "RHS_USAF"
+   "RHS_AFRF"
   }
   m_bEmptyFactionVisibility 1
  }
