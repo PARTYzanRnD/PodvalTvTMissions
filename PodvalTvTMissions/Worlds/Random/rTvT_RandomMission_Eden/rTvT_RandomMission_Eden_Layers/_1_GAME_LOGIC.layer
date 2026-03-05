@@ -16,8 +16,9 @@ GenericEntity : "{574B8B93E7DDD76D}Prefabs/System/MissionRandomizer/GUB_Randomiz
     }
    }
    m_fMinDistanceBetweenLocations 1500
-   m_fMaxDistanceBetweenLocations 3500
-   m_MarkerMakerConfigPath "{978379BC297D10EE}Configs/MarkerMakerConfig_RHS.conf"
+   m_fMaxDistanceBetweenLocations 4000
+   m_bMarkersOnlyOnBriefing 1
+   m_MarkerMakerConfigPath "{F4A0B8B3CF446139}Configs/MarkerMakerConfig_Random.conf"
   }
  }
  coords 0 0 0

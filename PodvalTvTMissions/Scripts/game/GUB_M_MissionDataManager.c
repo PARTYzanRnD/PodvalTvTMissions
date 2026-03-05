@@ -188,8 +188,8 @@ modded class PS_MissionDataManager
 				PS_MissionDataObjective missionDataObjective = new PS_MissionDataObjective();
 				
 				missionDataObjective.Name = WidgetManager.Translate("%1", objective.GetTitle());
-				missionDataObjective.Completed = WidgetManager.Translate("%1", objective.GetCompleted());
-				missionDataObjective.Score = WidgetManager.Translate("%1", objective.GetScore());
+				missionDataObjective.Completed = objective.GetCompleted();
+				missionDataObjective.Score = objective.GetScore();
 				
 				missionDataFactionResult.Objectives.Insert(missionDataObjective);
 			}
