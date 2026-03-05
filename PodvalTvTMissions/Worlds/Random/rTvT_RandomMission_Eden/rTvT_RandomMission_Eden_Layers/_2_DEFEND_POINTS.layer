@@ -313,6 +313,7 @@ $grp GUB_DefendPointEntity : "{C7CE0DC3D5144B7D}Prefabs/System/MissionRandomizer
  DEFEND_LEVIE {
   coords 7458.021 136.973 4737.61
   angles 0 0 0
+  m_bSpawnOnEditor 0
   m_sFlagName "FLAG_LEVIE"
   {
    $grp GUB_SpawnPointEntity : "{0DCCBC83322A0A0D}Prefabs/System/MissionRandomizer/SpawnPointEntity.et" {
@@ -636,6 +637,7 @@ $grp GUB_DefendPointEntity : "{C7CE0DC3D5144B7D}Prefabs/System/MissionRandomizer
  DEFEND_ENTREDEUX {
   coords 5763.096 217.591 7067.018
   angles 0 0 0
+  m_bSpawnOnEditor 0
   m_sFlagName "FLAG_ENTREDEUX"
   {
    $grp GUB_SpawnPointEntity : "{0DCCBC83322A0A0D}Prefabs/System/MissionRandomizer/SpawnPointEntity.et" {
@@ -916,6 +918,7 @@ $grp GUB_DefendPointEntity : "{C7CE0DC3D5144B7D}Prefabs/System/MissionRandomizer
  DEFEND_LEMOULE {
   coords 2621.527 92.433 5385.222
   angles 0 0 0
+  m_bSpawnOnEditor 0
   m_sFlagName "FLAG_LEMOULE"
   {
    $grp GUB_SpawnPointEntity : "{0DCCBC83322A0A0D}Prefabs/System/MissionRandomizer/SpawnPointEntity.et" {
