@@ -1,3 +1,7 @@
+Turret : "{07260C68FCC746A4}Prefabs/Weapons/Tripods/9K135/Deployable_Tripod_9K135.et" {
+ coords 6318.613 86.147 11290.113
+ angles 1.346 127.854 1.046
+}
 $grp SCR_IndestructibleEnvironmentalEntity : "{12FCFDEE79B4BB35}Prefabs/Rocks/Desert/DesertCliff_NS_03.et" {
  {
   coords 6717.473 124.243 11152.844
@@ -92,7 +96,7 @@ $grp SCR_IndestructibleEnvironmentalEntity : "{1B6D978E18B98B6A}Prefabs/Rocks/De
   angles -1.827 38.249 5.057
  }
  {
-  coords 6157.648 -0 11454.966
+  coords 6157.648 0 11454.966
   angles 6.594 -44.646 1.437
  }
  {
@@ -100,7 +104,7 @@ $grp SCR_IndestructibleEnvironmentalEntity : "{1B6D978E18B98B6A}Prefabs/Rocks/De
   angles -1.855 45.389 6.983
  }
  {
-  coords 6282.623 -0 11461.213
+  coords 6282.623 0 11461.213
   angles 0.284 0 0
  }
  {
@@ -112,7 +116,7 @@ $grp SCR_IndestructibleEnvironmentalEntity : "{1B6D978E18B98B6A}Prefabs/Rocks/De
   angles -0.195 46.665 -0.207
  }
  {
-  coords 6110.706 -0 11034.492
+  coords 6110.706 0 11034.492
   angles 0.537 12.064 1.567
  }
  {
@@ -132,7 +136,7 @@ $grp SCR_IndestructibleEnvironmentalEntity : "{1B6D978E18B98B6A}Prefabs/Rocks/De
   angles 0.285 0.224 -0.283
  }
  {
-  coords 6433.915 -0 11604.126
+  coords 6433.915 0 11604.126
   angles -1.639 -32.367 2.719
  }
  {
@@ -140,7 +144,7 @@ $grp SCR_IndestructibleEnvironmentalEntity : "{1B6D978E18B98B6A}Prefabs/Rocks/De
   angles 3.089 -0.031 -0.569
  }
  {
-  coords 6599.206 -0 11192.044
+  coords 6599.206 0 11192.044
   angles -5.022 -53.982 9.225
  }
  {
@@ -148,7 +152,7 @@ $grp SCR_IndestructibleEnvironmentalEntity : "{1B6D978E18B98B6A}Prefabs/Rocks/De
   angles -3.121 0.078 -1.423
  }
  {
-  coords 5933.725 -0 11104.611
+  coords 5933.725 0 11104.611
   angles -7.223 -49.944 4.616
  }
  {
@@ -160,11 +164,11 @@ $grp SCR_IndestructibleEnvironmentalEntity : "{1B6D978E18B98B6A}Prefabs/Rocks/De
   angles -0.865 18.079 5.382
  }
  {
-  coords 6667.415 -0 11780.353
+  coords 6667.415 0 11780.353
   angles 8.184 -47.733 -0.19
  }
  {
-  coords 6637.296 -0 11774.32
+  coords 6637.296 0 11774.32
   angles 9.846 -54.996 -7.119
  }
 }
@@ -275,11 +279,11 @@ $grp SCR_IndestructibleEnvironmentalEntity : "{54130E1465AEC13F}Prefabs/Rocks/De
   angles 10.999 -2.376 -12.269
  }
  {
-  coords 6249.798 -0 11639.904
+  coords 6249.798 0 11639.904
   angles 4.797 0.334 3.986
  }
  {
-  coords 6054.056 -0 11118.729
+  coords 6054.056 0 11118.729
   angles 1.135 0.045 2.273
  }
  {
@@ -301,7 +305,7 @@ $grp SCR_IndestructibleEnvironmentalEntity : "{5C31F8C6870C1033}Prefabs/Rocks/De
   angles -3.604 59.601 5.059
  }
  {
-  coords 6036.426 -0 11442.93
+  coords 6036.426 0 11442.93
   angles 0.284 0.001 0.284
  }
  {
@@ -421,6 +425,16 @@ $grp GenericEntity : "{AE57C45CB32D6168}Prefabs/Props/Wrecks/M113_wreck/M113_wre
   angles -0.518 62.013 -0.369
  }
 }
+$grp GenericEntity : "{B0A890995104A02D}Prefabs/Weapons/Tripods/9K135/Part_9K135_Launcher.et" {
+ {
+  coords 6319.205 86.438 11291.749
+  angles 0 9.373 -90
+ }
+ {
+  coords 6318.528 86.427 11291.9
+  angles 0.277 9.373 -90
+ }
+}
 $grp GenericEntity : "{B90E5414AB7C325B}Prefabs/Props/Wrecks/BTR70_Wreck/BTR70_wreck_static.et" {
  {
   coords 6077.01 89.477 11205.844
@@ -440,6 +454,9 @@ $grp GenericEntity : "{C707F02B5A64AA08}Prefabs/Props/Wrecks/BRDM2_wreck/BRDM2_w
   angles -3.965 -0.177 2.562
  }
 }
+GenericEntity : "{C8CC078380AA0054}Prefabs/Weapons/Warheads/Warhead_9M133TB.et" {
+ coords 6319.246 86.156 11286.67
+}
 Tree : "{EEDE2D0B5A4C68CB}Prefabs/Vegetation/Tree/t_alnus_glutinosa/t_alnus_glutinosa_2s_aut.et" {
  coords 6730.658 0.001 11318.305
 }
@@ -451,7 +468,7 @@ $grp Tree : "{F0B4F9601CEF4BE3}Prefabs/Vegetation/Tree/t_alnus_glutinosa/t_alnus
   coords 6744.806 0 11293.752
  }
  {
-  coords 6496.14 -0 11821.471
+  coords 6496.14 0 11821.471
  }
 }
 $grp SCR_IndestructibleEnvironmentalEntity : "{F760B11775512C5E}Prefabs/Rocks/Desert/DesertCliff_NS_02.et" {

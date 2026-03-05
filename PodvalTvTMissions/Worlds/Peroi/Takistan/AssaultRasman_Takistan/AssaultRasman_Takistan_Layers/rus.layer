@@ -39,6 +39,11 @@ $grp SCR_AIGroup : "{1128EBD3DDFF1D07}Prefabs/Groups/OPFOR/RHS_AFRF/Regular/Grou
   }
  }
 }
+Vehicle UAZ1 : "{259EE7B78C51B624}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469.et" {
+ coords 6313.121 86.149 11289.845
+ angles 0.922 122.715 -1.434
+ m_sAttachmentGroupName "btr9"
+}
 $grp Vehicle : "{447CFE8D73F95C40}Prefabs/Vehicles/Wheeled/BTR70/BTR70_AFRF.et" {
  BTR70_AFRF1 {
   coords 6331.773 86.187 11299.548
