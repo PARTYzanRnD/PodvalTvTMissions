@@ -1,5 +1,5 @@
 $grp GUB_DefendPointEntity : "{C7CE0DC3D5144B7D}Prefabs/System/MissionRandomizer/DefendPointEntity.et" {
- {
+ DEFEND_ARLEVILLE {
   coords 2785.856 74.184 1654.976
   angles 0 0 0
   m_sFlagName "FLAG_ARLEVILE"
@@ -56,7 +56,7 @@ $grp GUB_DefendPointEntity : "{C7CE0DC3D5144B7D}Prefabs/System/MissionRandomizer
    }
   }
  }
- {
+ DEFEND_MILITARY_2 {
   coords 1374.204 36.528 2383.094
   angles 0 0 0
   m_sFlagName "FLAG_MILITARY_2"
@@ -113,7 +113,7 @@ $grp GUB_DefendPointEntity : "{C7CE0DC3D5144B7D}Prefabs/System/MissionRandomizer
    }
   }
  }
- {
+ DEFEND_MILITARY_3 {
   coords 1311.709 39.82 2939.418
   angles 0 0 0
   m_sFlagName "FLAG_MILITARY_3"
@@ -170,7 +170,7 @@ $grp GUB_DefendPointEntity : "{C7CE0DC3D5144B7D}Prefabs/System/MissionRandomizer
    }
   }
  }
- {
+ DEFEND_MILITARY_1 {
   coords 1359.246 8.472 1852.969
   angles 0 0 0
   m_sFlagName "FLAG_MILITARY_1"
@@ -227,7 +227,7 @@ $grp GUB_DefendPointEntity : "{C7CE0DC3D5144B7D}Prefabs/System/MissionRandomizer
    }
   }
  }
- {
+ DEFEND_BEUREGARD {
   coords 3144.459 11.473 2775.158
   angles 0 0 0
   m_sFlagName "FLAG_BEUREGARD"
@@ -284,7 +284,7 @@ $grp GUB_DefendPointEntity : "{C7CE0DC3D5144B7D}Prefabs/System/MissionRandomizer
    }
   }
  }
- {
+ DEFEND_KOROVNIK {
   coords 1988.846 51.375 3007.469
   angles 0 0 0
   m_sFlagName "FLAG_KOROVNIK"

@@ -1,5 +1,5 @@
 $grp GUB_AttackPointEntity : "{515A2B3BE5819F70}Prefabs/System/MissionRandomizer/AttackPointEntity.et" {
- {
+ ATTACK_FIELD_1 {
   coords 8877.52 20.052 8072.817
   angles 0 0 0
   {
@@ -83,7 +83,7 @@ $grp GUB_AttackPointEntity : "{515A2B3BE5819F70}Prefabs/System/MissionRandomizer
    }
   }
  }
- {
+ ATTACK_KAMENSK {
   coords 11928.819 6.631 10600.85
   angles 0 0 0
   {
@@ -166,7 +166,7 @@ $grp GUB_AttackPointEntity : "{515A2B3BE5819F70}Prefabs/System/MissionRandomizer
    }
   }
  }
- {
+ ATTACK_MILITARY_1 {
   coords 7756.373 313.428 8103.495
   angles 0 0 0
   {
@@ -246,7 +246,7 @@ $grp GUB_AttackPointEntity : "{515A2B3BE5819F70}Prefabs/System/MissionRandomizer
    }
   }
  }
- {
+ ATTACK_MILITARY_2 {
   coords 5685.24 421.373 6882.335
   angles 0 0 0
   {
@@ -311,7 +311,7 @@ $grp GUB_AttackPointEntity : "{515A2B3BE5819F70}Prefabs/System/MissionRandomizer
    }
   }
  }
- {
+ ATTACK_SOUMONT {
   coords 5058.531 410.371 5308.405
   angles 0 0 0
   {
@@ -387,7 +387,7 @@ $grp GUB_AttackPointEntity : "{515A2B3BE5819F70}Prefabs/System/MissionRandomizer
    }
   }
  }
- {
+ ATTACK_UGOLDAR {
   coords 6643.376 25.725 3903.074
   angles 0 0 0
   {
@@ -463,7 +463,7 @@ $grp GUB_AttackPointEntity : "{515A2B3BE5819F70}Prefabs/System/MissionRandomizer
    }
   }
  }
- {
+ ATTACK_MINERALY {
   coords 6252.421 37.05 8029.033
   angles 0 0 0
   {
@@ -539,7 +539,7 @@ $grp GUB_AttackPointEntity : "{515A2B3BE5819F70}Prefabs/System/MissionRandomizer
    }
   }
  }
- {
+ ATTACK_MILITARY_3 {
   coords 8585.541 95.516 9315.045
   angles 0 0 0
   {
@@ -615,7 +615,7 @@ $grp GUB_AttackPointEntity : "{515A2B3BE5819F70}Prefabs/System/MissionRandomizer
    }
   }
  }
- {
+ ATTACK_SOSNOVYMYS {
   coords 4384.381 11.961 8064.227
   angles 0 0 0
   {
@@ -691,7 +691,7 @@ $grp GUB_AttackPointEntity : "{515A2B3BE5819F70}Prefabs/System/MissionRandomizer
    }
   }
  }
- {
+ ATTACK_GORSHKOVO {
   coords 8445.023 22.683 6561.309
   angles 0 0 0
   {
@@ -767,7 +767,7 @@ $grp GUB_AttackPointEntity : "{515A2B3BE5819F70}Prefabs/System/MissionRandomizer
    }
   }
  }
- {
+ ATTACK_MILITARY {
   coords 7637.858 23.406 5070.572
   angles 0 0 0
   {
@@ -843,7 +843,7 @@ $grp GUB_AttackPointEntity : "{515A2B3BE5819F70}Prefabs/System/MissionRandomizer
    }
   }
  }
- {
+ ATTACK_MICHURINO {
   coords 3797.495 27.721 4044.528
   angles 0 0 0
   {
@@ -919,7 +919,7 @@ $grp GUB_AttackPointEntity : "{515A2B3BE5819F70}Prefabs/System/MissionRandomizer
    }
   }
  }
- {
+ ATTACK_UDARNIK {
   coords 4458.456 40.507 3453.402
   angles 0 0 0
   {
@@ -995,7 +995,7 @@ $grp GUB_AttackPointEntity : "{515A2B3BE5819F70}Prefabs/System/MissionRandomizer
    }
   }
  }
- {
+ ATTACK_FIELD_2 {
   coords 3481.316 272.458 6239.518
   angles 0 0 0
   {
@@ -1071,7 +1071,7 @@ $grp GUB_AttackPointEntity : "{515A2B3BE5819F70}Prefabs/System/MissionRandomizer
    }
   }
  }
- {
+ ATTACK_BOVEMONT {
   coords 6088.651 418.303 6236.925
   angles 0 0 0
   {

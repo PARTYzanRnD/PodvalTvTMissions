@@ -1,5 +1,5 @@
 $grp GUB_DefendPointEntity : "{C7CE0DC3D5144B7D}Prefabs/System/MissionRandomizer/DefendPointEntity.et" {
- {
+ DEFEND_MEGLERONE {
   coords 9804.985 55.694 9477.073
   angles 0 0 0
   m_sFlagName "FLAG_MEGLERONE"
@@ -57,7 +57,7 @@ $grp GUB_DefendPointEntity : "{C7CE0DC3D5144B7D}Prefabs/System/MissionRandomizer
    }
   }
  }
- {
+ DEFEND_KOMSOMOLSK {
   coords 8649.95 5.46 10169.053
   angles 0 0 0
   m_sFlagName "FLAG_KOMSOMOLSK"
@@ -109,7 +109,7 @@ $grp GUB_DefendPointEntity : "{C7CE0DC3D5144B7D}Prefabs/System/MissionRandomizer
    }
   }
  }
- {
+ DEFEND_LANGONNET {
   coords 9643.651 132.604 9992.208
   angles 0 0 0
   m_sFlagName "FLAG_LANGONNET"
@@ -167,7 +167,7 @@ $grp GUB_DefendPointEntity : "{C7CE0DC3D5144B7D}Prefabs/System/MissionRandomizer
    }
   }
  }
- {
+ DEFEND_MINERALY {
   coords 6252.284 37.032 8029.302
   angles 0 0 0
   m_sFlagName "FLAG_MINERALY"
@@ -225,7 +225,7 @@ $grp GUB_DefendPointEntity : "{C7CE0DC3D5144B7D}Prefabs/System/MissionRandomizer
    }
   }
  }
- {
+ DEFEND_GORSHKOVO {
   coords 8445.099 22.679 6561.324
   angles 0 0 0
   m_sFlagName "FLAG_GORSHKOVO"
@@ -282,7 +282,7 @@ $grp GUB_DefendPointEntity : "{C7CE0DC3D5144B7D}Prefabs/System/MissionRandomizer
    }
   }
  }
- {
+ DEFEND_MILITARY_1 {
   coords 6849.102 439.034 6751.717
   angles 0 0 0
   m_sFlagName "FLAG_MILITARY_1"
@@ -340,7 +340,7 @@ $grp GUB_DefendPointEntity : "{C7CE0DC3D5144B7D}Prefabs/System/MissionRandomizer
    }
   }
  }
- {
+ DEFEND_MILITARY_2 {
   coords 7637.888 23.405 5070.613
   angles 0 0 0
   m_sFlagName "FLAG_MILITARY_2"
@@ -397,7 +397,7 @@ $grp GUB_DefendPointEntity : "{C7CE0DC3D5144B7D}Prefabs/System/MissionRandomizer
    }
   }
  }
- {
+ DEFEND_STAKHANOVMINE {
   coords 5990.461 182.192 4554.21
   angles 0 0 0
   m_sFlagName "FLAG_STAKHANOVMINE"
@@ -455,7 +455,7 @@ $grp GUB_DefendPointEntity : "{C7CE0DC3D5144B7D}Prefabs/System/MissionRandomizer
    }
   }
  }
- {
+ DEFEND_MILITARY_3 {
   coords 4415.829 52.579 3184.754
   angles 0 0 0
   m_sFlagName "FLAG_MILITARY_3"
@@ -513,7 +513,7 @@ $grp GUB_DefendPointEntity : "{C7CE0DC3D5144B7D}Prefabs/System/MissionRandomizer
    }
   }
  }
- {
+ DEFEND_MILITARY_4 {
   coords 2729.825 24.656 5592.731
   angles 0 0 0
   m_sFlagName "FLAG_MILITARY_4"
@@ -571,7 +571,7 @@ $grp GUB_DefendPointEntity : "{C7CE0DC3D5144B7D}Prefabs/System/MissionRandomizer
    }
   }
  }
- {
+ DEFEND_HAMERTIN {
   coords 3300.778 268.517 6830.501
   angles 0 0 0
   m_sFlagName "FLAG_HAMERTIN"
@@ -628,7 +628,7 @@ $grp GUB_DefendPointEntity : "{C7CE0DC3D5144B7D}Prefabs/System/MissionRandomizer
    }
   }
  }
- {
+ DEFEND_SOUMONT {
   coords 5058.546 410.369 5308.402
   angles 0 0 0
   m_sFlagName "FLAG_SOUMONT"
@@ -685,7 +685,7 @@ $grp GUB_DefendPointEntity : "{C7CE0DC3D5144B7D}Prefabs/System/MissionRandomizer
    }
   }
  }
- {
+ DEFEND_SOSNOVYMYS {
   coords 4384.429 11.968 8064.218
   angles 0 0 0
   m_sFlagName "FLAG_SOSNOVYMYS"
@@ -743,7 +743,7 @@ $grp GUB_DefendPointEntity : "{C7CE0DC3D5144B7D}Prefabs/System/MissionRandomizer
    }
   }
  }
- {
+ DEFEND_VILLA {
   coords 2024.284 127.502 7377.621
   angles 0 0 0
   m_sFlagName "FLAG_VILLA"
@@ -801,7 +801,7 @@ $grp GUB_DefendPointEntity : "{C7CE0DC3D5144B7D}Prefabs/System/MissionRandomizer
    }
   }
  }
- {
+ DEFEND_MILITARY_5 {
   coords 5379.877 64.667 3387.262
   angles 0 0 0
   m_sFlagName "FLAG_MILITARY_5"
@@ -859,7 +859,7 @@ $grp GUB_DefendPointEntity : "{C7CE0DC3D5144B7D}Prefabs/System/MissionRandomizer
    }
   }
  }
- {
+ DEFEND_KRASNYYOKTYABRMINE {
   coords 3689.908 179.743 5233.082
   angles 0 0 0
   m_sFlagName "FLAG_KRASNYYOKTYABRMINE"
