@@ -1130,68 +1130,6 @@ GenericEntity : "{A8E6670E3AC51126}Prefabs/Props/Industrial/CrawlerCraneWreck_01
   }
  }
 }
-$grp GenericEntity : "{AB50753990C87073}Prefabs/Props/S2/S2_Vodka/S2_Vodka.et" {
- {
-  coords 480.167 17.067 2559.884
-  angles 0 90.225 0
- }
- {
-  coords 480.186 17.069 2559.995
-  angles 0 -146.549 0
- }
- {
-  coords 480.188 17.069 2560.086
-  angles 0 -11.351 0
- }
- {
-  coords 480.189 17.069 2560.166
-  angles 0 116.348 0
- }
- {
-  coords 480.183 17.069 2560.258
-  angles 0 -25.89 0
- }
- {
-  coords 480.294 17.067 2559.903
-  angles 0 -67.045 0
- }
- {
-  coords 480.297 17.069 2560.004
-  angles 0 89.324 0
- }
- {
-  coords 480.299 17.069 2560.09
-  angles 0 -55.889 0
- }
- {
-  coords 480.313 17.069 2560.175
-  angles 0 -28.697 0
- }
- {
-  coords 480.31 17.069 2560.262
-  angles 0 -52.232 0
- }
- {
-  coords 480.41 17.067 2559.884
-  angles 0 -147.413 0
- }
- {
-  coords 480.429 17.069 2559.995
-  angles 0 162.518 0
- }
- {
-  coords 480.431 17.069 2560.086
-  angles 0 88.455 0
- }
- {
-  coords 480.432 17.069 2560.166
-  angles 0 167.667 0
- }
- {
-  coords 480.43 17.069 2560.249
-  angles 0 138.521 0
- }
-}
 $grp GenericEntity : "{B557358F8F64AE31}Prefabs/Props/Industrial/Repair/HydraulicCarJack_01.et" {
  {
   coords 524.113 17.052 2577.679
