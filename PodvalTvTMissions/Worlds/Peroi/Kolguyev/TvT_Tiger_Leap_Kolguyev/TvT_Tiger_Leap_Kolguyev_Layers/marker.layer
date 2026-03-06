@@ -1,3 +1,27 @@
+GenericEntity : "{592E8C59C778A189}Prefabs/System/GUB_ZoneControlBetweenFactionsPrefab.et" {
+ components {
+  GUB_ZoneControlComponent "{66E34DFE0E54C4B7}" {
+   m_aControlLogics {
+    GUB_ZoneControlLogicCapture "{68C90BC7994F4ECC}" {
+     m_sMessage "Захватили площадь"
+     m_Timer GUB_ZoneControlTimer "{68C90BC78CA2EB62}" {
+      timeToComplete 180
+     }
+     m_ZoneController GUB_ZoneController "{68C90BC78C48B86B}" {
+      m_sZoneEntityName "zona1"
+     }
+     m_FlagControllerCapture GUB_FlagControllerCapture "{68C90BC7D4FC4C72}" {
+      m_aFlagNames {
+       "flag"
+      }
+     }
+     neutralFaction "FIA"
+    }
+   }
+  }
+ }
+ coords 6575.251 24.657 3789.157
+}
 PolylineShapeEntity : "{7019844BAD5C4DD8}Prefabs/PolyZone/PolyZone_Border.et" {
  components {
   PS_PolyZone "{60E90266F25533F6}" {
@@ -118,7 +142,7 @@ PolylineShapeEntity : "{7019844BAD5C4DD8}Prefabs/PolyZone/PolyZone_Border.et" {
   }
  }
 }
-PolylineShapeEntity : "{BD11B8FAA469D169}Prefabs/PolyZone/PolyZone.et" {
+PolylineShapeEntity zona1 : "{BD11B8FAA469D169}Prefabs/PolyZone/PolyZone.et" {
  components {
   PS_PolyZone "{60E90266F25533F6}" {
    m_cPolygonColor 0.502 0 0 0
