@@ -1,0 +1,46 @@
+$grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
+ {
+  coords 3557.276 0 3810.302
+  m_sTitle "Описание миссии"
+  m_sTextData "В ходе боёв за Заричное ЧСО вытеснило ЧДКЗ на его окраены. Под угрозой атаки оказалась рембаза ЧДКЗ, в ответ на это к  имеющейся охране предприятия, командывание отправило подкрипление. Однаврименно с этим ЧСО подгатовило две группы для захвата рембаазы."
+  m_bEmptyFactionVisibility 1
+  m_bShowForAnyFaction 1
+ }
+ {
+  coords 3329.271 0 4049.75
+  m_sTitle "Цели миссии"
+  m_sTextData "ЧДКЗ:"\
+  "Удержать рембазу - 70 очков"\
+  "Сохранить КШМ - 30 очков"\
+  ""\
+  "ЧСО:"\
+  "Захватить  рембазу - 70 очков"\
+  "Уничтожить КШМ - 30 очков"
+  m_bEmptyFactionVisibility 1
+  m_bShowForAnyFaction 1
+ }
+ {
+  coords 3784.831 0 3622.676
+  m_sTitle "Условия миссии"
+  m_sTextData "ЧДКЗ: "\
+  "Отряду КС и охране предприятия (Бураны) запрещено покидать територию рембазы."\
+  "Запрещенно вывозить КШМ за територию предприятия."\
+  ""\
+  "ЧСО: "\
+  "Рембаза считается захваченной при двухкратном преймуществе по числу солдат."
+  m_bEmptyFactionVisibility 1
+  m_bShowForAnyFaction 1
+ }
+}
+$grp StaticModelEntity : "{AE73676ABA995907}Prefabs/Structures/BuildingParts/Entry/Entry_Block_Platform_01_3x12.et" {
+ {
+  coords 4.652 22.187 2497.484
+  angles 0 83.925 0
+  scale 0.5
+ }
+ {
+  coords 4.357 22.097 2505.279
+  angles -0.88 100.668 -0.166
+  scale 0.5
+ }
+}
