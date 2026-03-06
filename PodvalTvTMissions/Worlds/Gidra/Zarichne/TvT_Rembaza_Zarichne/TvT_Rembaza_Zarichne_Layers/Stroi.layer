@@ -20,6 +20,10 @@ $grp GenericEntity : "{0A6B5B1CC60EC137}Prefabs/Props/Wrecks/LAV25_wreck/LAV25_w
   angles 0 -91.489 0
  }
 }
+GenericEntity : "{0F866B72D473D8C4}Prefabs/Props/Industrial/ToolBox_01/ToolBox_01_grey.et" {
+ coords 484.867 18.484 2552.296
+ angles 0 -83.418 0
+}
 $grp GenericEntity : "{14225F5BB48F0C00}Prefabs/Props/Construction/ContainerMetal_01/ContainerMetal_01_base.et" {
  {
   coords 581.506 15.281 2652.317
@@ -228,8 +232,14 @@ GenericEntity : "{2B26287DC5B7F9D0}Prefabs/Props/Industrial/ToolBox_01/ToolBox_0
  coords 527.291 17.052 2578.596
  angles 0 1.406 0
 }
-GenericEntity : "{342E852E9A1847EA}Prefabs/Props/Industrial/Repair/VehicleGarbage_01_pile_medium.et" {
- coords 540.447 17.052 2576.287
+$grp GenericEntity : "{342E852E9A1847EA}Prefabs/Props/Industrial/Repair/VehicleGarbage_01_pile_medium.et" {
+ {
+  coords 540.447 17.052 2576.287
+ }
+ {
+  coords 358.188 16.878 2546.486
+  angles 0 86.164 0
+ }
 }
 GenericEntity : "{37D835F841DD4D46}PrefabsEditable/Auto/Props/VehicleParts/Tires/E_Tire_BTR70_pile.et" {
  coords 487.427 14.804 2648.155
@@ -880,9 +890,18 @@ GenericEntity : "{4B648E46723B2A30}Prefabs/Props/Industrial/AirCompressor_01/Air
  coords 527.944 17.052 2573.771
  angles 0 109.592 0
 }
-GenericEntity : "{50A752B7D5E679A2}Prefabs/Props/Industrial/Repair/GasWelder_01.et" {
- coords 544.32 17.052 2585.856
- angles 0 6.345 0
+$grp GenericEntity : "{50A752B7D5E679A2}Prefabs/Props/Industrial/Repair/GasWelder_01.et" {
+ {
+  coords 544.32 17.052 2585.856
+  angles 0 6.345 0
+ }
+ {
+  coords 481.237 16.844 2551.692
+ }
+ {
+  coords 352.648 16.878 2548.175
+  angles 0 -66.078 0
+ }
 }
 GenericEntity : "{52F4C6F1D59655CA}Prefabs/Props/Garbage/Generic/Junk_01/Junk_01_single_bathtub.et" {
  coords 567.138 15.354 2647.646
@@ -1025,6 +1044,10 @@ $grp GenericEntity : "{5B9EB3D6573E1211}Prefabs/Props/Military/GAZ_TIGR_233114_C
   angles -0.931 92.349 0.858
  }
 }
+GenericEntity : "{5D31850B326BA246}Prefabs/Props/Industrial/AirCompressor_01/AirCompressor_01.et" {
+ coords 487.225 16.844 2554.963
+ angles 0 75.206 0
+}
 $grp GenericEntity : "{6929659CE9375CAF}Prefabs/Props/Garbage/Tires/TireTractor_01_single.et" {
  {
   coords 433.566 16.663 2668.067
@@ -1045,9 +1068,15 @@ GenericEntity : "{74D1DB7828061BD7}Prefabs/Props/Garbage/Generic/Junk_01/Junk_01
 GenericEntity : "{8751F77B1038FC72}Prefabs/Props/Industrial/Repair/VehicleGarbage_01_pile_large.et" {
  coords 532.805 17.052 2575.959
 }
-GenericEntity : "{90A74133C1DC6226}Prefabs/Props/Industrial/Repair/EngineCrane_01.et" {
- coords 540.635 17.052 2578.557
- angles 0 159.925 0
+$grp GenericEntity : "{90A74133C1DC6226}Prefabs/Props/Industrial/Repair/EngineCrane_01.et" {
+ {
+  coords 540.635 17.052 2578.557
+  angles 0 159.925 0
+ }
+ {
+  coords 358.852 16.878 2547.618
+  angles 0 -91.58 0
+ }
 }
 $grp GenericEntity : "{9668B6C528DCECBD}Prefabs/Props/Wrecks/Mi8MT_wreck/Mi8MT_wreck_static.et" {
  {
@@ -1101,9 +1130,81 @@ GenericEntity : "{A8E6670E3AC51126}Prefabs/Props/Industrial/CrawlerCraneWreck_01
   }
  }
 }
-GenericEntity : "{B557358F8F64AE31}Prefabs/Props/Industrial/Repair/HydraulicCarJack_01.et" {
- coords 524.113 17.052 2577.679
- angles 0 74.815 0
+$grp GenericEntity : "{AB50753990C87073}Prefabs/Props/S2/S2_Vodka/S2_Vodka.et" {
+ {
+  coords 480.167 17.067 2559.884
+  angles 0 90.225 0
+ }
+ {
+  coords 480.186 17.069 2559.995
+  angles 0 -146.549 0
+ }
+ {
+  coords 480.188 17.069 2560.086
+  angles 0 -11.351 0
+ }
+ {
+  coords 480.189 17.069 2560.166
+  angles 0 116.348 0
+ }
+ {
+  coords 480.183 17.069 2560.258
+  angles 0 -25.89 0
+ }
+ {
+  coords 480.294 17.067 2559.903
+  angles 0 -67.045 0
+ }
+ {
+  coords 480.297 17.069 2560.004
+  angles 0 89.324 0
+ }
+ {
+  coords 480.299 17.069 2560.09
+  angles 0 -55.889 0
+ }
+ {
+  coords 480.313 17.069 2560.175
+  angles 0 -28.697 0
+ }
+ {
+  coords 480.31 17.069 2560.262
+  angles 0 -52.232 0
+ }
+ {
+  coords 480.41 17.067 2559.884
+  angles 0 -147.413 0
+ }
+ {
+  coords 480.429 17.069 2559.995
+  angles 0 162.518 0
+ }
+ {
+  coords 480.431 17.069 2560.086
+  angles 0 88.455 0
+ }
+ {
+  coords 480.432 17.069 2560.166
+  angles 0 167.667 0
+ }
+ {
+  coords 480.43 17.069 2560.249
+  angles 0 138.521 0
+ }
+}
+$grp GenericEntity : "{B557358F8F64AE31}Prefabs/Props/Industrial/Repair/HydraulicCarJack_01.et" {
+ {
+  coords 524.113 17.052 2577.679
+  angles 0 74.815 0
+ }
+ {
+  coords 479.879 16.844 2551.534
+  angles 0 40.241 0
+ }
+ {
+  coords 350.911 16.878 2545.044
+  angles 0 96.032 0
+ }
 }
 $grp GenericEntity : "{B90E5414AB7C325B}Prefabs/Props/Wrecks/BTR70_Wreck/BTR70_wreck_static.et" {
  {
@@ -1373,6 +1474,16 @@ $grp GenericEntity : "{D99955DFCF7D3962}Prefabs/Props/Wrecks/CannonWreck_01/Cann
   angles 0 91.158 0
  }
 }
-GenericEntity : "{DA861447E6D426AE}Prefabs/Props/Industrial/Repair/VehicleGarbage_01_pile_small.et" {
- coords 526.305 17.052 2576.92
+$grp GenericEntity : "{DA861447E6D426AE}Prefabs/Props/Industrial/Repair/VehicleGarbage_01_pile_small.et" {
+ {
+  coords 526.305 17.052 2576.92
+ }
+ {
+  coords 463.939 17.994 2563.766
+  angles 0 57.106 0
+ }
+}
+GenericEntity : "{FE8A959BA3E4CD10}Prefabs/Props/Services/Fire/FireExtinguisherBox_01.et" {
+ coords 471.266 16.851 2571.349
+ angles 0 -92.787 0
 }
