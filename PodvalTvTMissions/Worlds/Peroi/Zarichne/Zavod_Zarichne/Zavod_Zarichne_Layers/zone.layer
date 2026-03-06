@@ -6,7 +6,9 @@ PolylineShapeEntity : "{7019844BAD5C4DD8}Prefabs/PolyZone/PolyZone_Border.et" {
    m_mPolygonTextureBorder "{CA01D453D39FB430}UI/layouts/Textures/ZoneBorder.edds"
    m_cPolygonBorderColor 0 0 0 1
    m_aVisibleForFactions {
-    "" "RHS_USAF" "RHS_AFRF"
+    ""
+    "RHS_USAF"
+    "RHS_AFRF"
    }
   }
  }
@@ -189,8 +191,8 @@ PolylineShapeEntity : "{7019844BAD5C4DD8}Prefabs/PolyZone/PolyZone_Border.et" {
  }
 }
 PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
- coords 1784.053 22.268 3679.972
- angleY 58.778
+ coords 1785.184 22.294 3686.787
+ angles 0 58.778 0
  m_sImageSetGlow ""
  m_MarkerColor 0.071 0.192 0.561 1
  m_sQuadName "flag-2"
@@ -198,7 +200,9 @@ PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" 
  m_sDescription "Завод"
  m_bUseWorldScale 0
  m_aVisibleForFactions {
-  "" "RHS_USAF" "RHS_AFRF"
+  ""
+  "RHS_USAF"
+  "RHS_AFRF"
  }
  m_bVisibleForEmptyFaction 1
  m_bShowForAnyFaction 1

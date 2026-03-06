@@ -10,7 +10,7 @@ $grp PS_Objective : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
   m_sFactionKey "RHS_AFRF"
  }
 }
-GenericEntity : "{F5EF4223ACA6169C}PrefabsEditable/Auto/Structures/Military/Flags/E_FlagPole_02_V1_AFRF.et" {
+GenericEntity : "{F5EF4223ACA6169D}PrefabsEditable/Auto/Structures/Military/Flags/E_FlagPole_02_V1_AFRF.et" {
  components {
   SCR_FlagComponent "{5E3C95A1E1EE9681}" {
    m_sDefaultMaterial "{610803CC3F3D6649}Assets/Props/Fabric/Flags/Data/Flag_1_2_USA.emat"
@@ -26,5 +26,6 @@ GenericEntity : "{F5EF4223ACA6169C}PrefabsEditable/Auto/Structures/Military/Flag
    m_sFactionKey "RHS_USAF"
   }
  }
- coords 1784.32 22.252 3680.829
+ coords 1785.3 22.601 3687.59
+ angles 1.693 115.129 -2.624
 }
