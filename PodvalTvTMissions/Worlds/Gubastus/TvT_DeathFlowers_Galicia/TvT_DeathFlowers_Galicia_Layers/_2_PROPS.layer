@@ -1,0 +1,455 @@
+GenericEntity : "{1571BF54599093AF}PrefabsEditable/Auto/Props/Furniture/E_MeetingTable_01.et" {
+ coords 3789.47 155.941 671.565
+ angles 0.28 -85.511 -3.565
+}
+$grp GenericEntity : "{95544A428439B73E}Prefabs/Weapons/Magazines/2B9/Magazine__82mm_2B9_HE.et" {
+ {
+  coords 3787.947 155.741 668.373
+  {
+   $grp GenericEntity : "{95544A428439B73E}Prefabs/Weapons/Magazines/2B9/Magazine__82mm_2B9_HE.et" {
+    {
+     coords 0 0.111 0
+    }
+    {
+     coords 0 0.224 0
+    }
+    {
+     coords 0 0.335 0
+    }
+    {
+     coords 0 0.44 0
+    }
+    {
+     coords 0 0.551 0
+    }
+    {
+     coords 0 0.664 0
+    }
+    {
+     coords 0 0.775 0
+    }
+   }
+  }
+ }
+ {
+  coords 3787.941 155.785 669.077
+  {
+   $grp GenericEntity : "{95544A428439B73E}Prefabs/Weapons/Magazines/2B9/Magazine__82mm_2B9_HE.et" {
+    {
+     coords 0 0.111 0
+    }
+    {
+     coords 0 0.224 0
+    }
+    {
+     coords 0 0.335 0
+    }
+    {
+     coords 0 0.44 0
+    }
+    {
+     coords 0 0.551 0
+    }
+    {
+     coords 0 0.664 0
+    }
+    {
+     coords 0 0.775 0
+    }
+   }
+  }
+ }
+ {
+  coords 3786.814 154.727 650.417
+  {
+   $grp GenericEntity : "{95544A428439B73E}Prefabs/Weapons/Magazines/2B9/Magazine__82mm_2B9_HE.et" {
+    {
+     coords 0 0.111 0
+    }
+    {
+     coords 0 0.224 0
+    }
+    {
+     coords 0 0.335 0
+    }
+    {
+     coords 0 0.44 0
+    }
+    {
+     coords 0 0.551 0
+    }
+    {
+     coords 0 0.664 0
+    }
+    {
+     coords 0 0.775 0
+    }
+   }
+  }
+ }
+ {
+  coords 3786.856 154.778 651.25
+  {
+   $grp GenericEntity : "{95544A428439B73E}Prefabs/Weapons/Magazines/2B9/Magazine__82mm_2B9_HE.et" {
+    {
+     coords 0 0.111 0
+    }
+    {
+     coords 0 0.224 0
+    }
+    {
+     coords 0 0.335 0
+    }
+    {
+     coords 0 0.44 0
+    }
+    {
+     coords 0 0.551 0
+    }
+    {
+     coords 0 0.664 0
+    }
+    {
+     coords 0 0.775 0
+    }
+   }
+  }
+ }
+ {
+  coords 3790.078 156.713 683.884
+  angles 0 13.656 0
+  {
+   $grp GenericEntity : "{95544A428439B73E}Prefabs/Weapons/Magazines/2B9/Magazine__82mm_2B9_HE.et" {
+    {
+     coords 0 0.111 0
+    }
+    {
+     coords 0 0.224 0
+    }
+    {
+     coords 0 0.335 0
+    }
+    {
+     coords 0 0.44 0
+    }
+    {
+     coords 0 0.551 0
+    }
+    {
+     coords 0 0.664 0
+    }
+    {
+     coords 0 0.775 0
+    }
+   }
+  }
+ }
+ {
+  coords 3787.982 155.838 669.909
+  {
+   $grp GenericEntity : "{95544A428439B73E}Prefabs/Weapons/Magazines/2B9/Magazine__82mm_2B9_HE.et" {
+    {
+     coords 0 0.111 0
+    }
+    {
+     coords 0 0.224 0
+    }
+    {
+     coords 0 0.335 0
+    }
+    {
+     coords 0 0.44 0
+    }
+    {
+     coords 0 0.551 0
+    }
+    {
+     coords 0 0.664 0
+    }
+    {
+     coords 0 0.775 0
+    }
+   }
+  }
+ }
+ {
+  coords 3790.475 156.811 685.369
+  angles 0 13.656 0
+  {
+   $grp GenericEntity : "{95544A428439B73E}Prefabs/Weapons/Magazines/2B9/Magazine__82mm_2B9_HE.et" {
+    {
+     coords 0 0.111 0
+    }
+    {
+     coords 0 0.224 0
+    }
+    {
+     coords 0 0.335 0
+    }
+    {
+     coords 0 0.44 0
+    }
+    {
+     coords 0 0.551 0
+    }
+    {
+     coords 0 0.664 0
+    }
+    {
+     coords 0 0.775 0
+    }
+   }
+  }
+ }
+ {
+  coords 3790.239 156.758 684.57
+  angles 0 13.656 0
+  {
+   $grp GenericEntity : "{95544A428439B73E}Prefabs/Weapons/Magazines/2B9/Magazine__82mm_2B9_HE.et" {
+    {
+     coords 0 0.111 0
+    }
+    {
+     coords 0 0.224 0
+    }
+    {
+     coords 0 0.335 0
+    }
+    {
+     coords 0 0.44 0
+    }
+    {
+     coords 0 0.551 0
+    }
+    {
+     coords 0 0.664 0
+    }
+    {
+     coords 0 0.775 0
+    }
+   }
+  }
+ }
+ {
+  coords 3786.821 154.683 649.713
+  {
+   $grp GenericEntity : "{95544A428439B73E}Prefabs/Weapons/Magazines/2B9/Magazine__82mm_2B9_HE.et" {
+    {
+     coords 0 0.111 0
+    }
+    {
+     coords 0 0.224 0
+    }
+    {
+     coords 0 0.335 0
+    }
+    {
+     coords 0 0.44 0
+    }
+    {
+     coords 0 0.551 0
+    }
+    {
+     coords 0 0.664 0
+    }
+    {
+     coords 0 0.775 0
+    }
+   }
+  }
+ }
+}
+$grp GenericEntity : "{AE998243157183A5}Prefabs/Weapons/Magazines/2B9/Magazine__82mm_2B9_Smoke.et" {
+ {
+  coords 3787.801 156.068 673.636
+  {
+   $grp GenericEntity : "{AE998243157183A5}Prefabs/Weapons/Magazines/2B9/Magazine__82mm_2B9_Smoke.et" {
+    {
+     coords 0 0.278 0
+    }
+    {
+     coords 0 0.367 0
+    }
+    {
+     coords 0 0.465 0
+    }
+    {
+     coords 0 0.562 0
+    }
+    {
+     coords 0 0.651 0
+    }
+    {
+     coords 0 0.192 0
+    }
+    {
+     coords 0 0.096 0
+    }
+   }
+  }
+ }
+ {
+  coords 3786.675 154.983 654.976
+  {
+   $grp GenericEntity : "{AE998243157183A5}Prefabs/Weapons/Magazines/2B9/Magazine__82mm_2B9_Smoke.et" {
+    {
+     coords 0 0.278 0
+    }
+    {
+     coords 0 0.367 0
+    }
+    {
+     coords 0 0.465 0
+    }
+    {
+     coords 0 0.562 0
+    }
+    {
+     coords 0 0.651 0
+    }
+    {
+     coords 0 0.192 0
+    }
+    {
+     coords 0 0.096 0
+    }
+   }
+  }
+ }
+ {
+  coords 3791.179 157.004 689.033
+  angles 0 13.656 0
+  {
+   $grp GenericEntity : "{AE998243157183A5}Prefabs/Weapons/Magazines/2B9/Magazine__82mm_2B9_Smoke.et" {
+    {
+     coords 0 0.278 0
+    }
+    {
+     coords 0 0.367 0
+    }
+    {
+     coords 0 0.465 0
+    }
+    {
+     coords 0 0.562 0
+    }
+    {
+     coords 0 0.651 0
+    }
+    {
+     coords 0 0.192 0
+    }
+    {
+     coords 0 0.096 0
+    }
+   }
+  }
+ }
+ {
+  coords 3787.815 156.114 674.367
+  {
+   $grp GenericEntity : "{AE998243157183A5}Prefabs/Weapons/Magazines/2B9/Magazine__82mm_2B9_Smoke.et" {
+    {
+     coords 0 0.278 0
+    }
+    {
+     coords 0 0.367 0
+    }
+    {
+     coords 0 0.465 0
+    }
+    {
+     coords 0 0.562 0
+    }
+    {
+     coords 0 0.651 0
+    }
+    {
+     coords 0 0.192 0
+    }
+    {
+     coords 0 0.096 0
+    }
+   }
+  }
+ }
+ {
+  coords 3786.688 155.024 655.708
+  {
+   $grp GenericEntity : "{AE998243157183A5}Prefabs/Weapons/Magazines/2B9/Magazine__82mm_2B9_Smoke.et" {
+    {
+     coords 0 0.278 0
+    }
+    {
+     coords 0 0.367 0
+    }
+    {
+     coords 0 0.465 0
+    }
+    {
+     coords 0 0.562 0
+    }
+    {
+     coords 0 0.651 0
+    }
+    {
+     coords 0 0.192 0
+    }
+    {
+     coords 0 0.096 0
+    }
+   }
+  }
+ }
+ {
+  coords 3791.365 157.04 689.74
+  angles 0 13.656 0
+  {
+   $grp GenericEntity : "{AE998243157183A5}Prefabs/Weapons/Magazines/2B9/Magazine__82mm_2B9_Smoke.et" {
+    {
+     coords 0 0.278 0
+    }
+    {
+     coords 0 0.367 0
+    }
+    {
+     coords 0 0.465 0
+    }
+    {
+     coords 0 0.562 0
+    }
+    {
+     coords 0 0.651 0
+    }
+    {
+     coords 0 0.192 0
+    }
+    {
+     coords 0 0.096 0
+    }
+   }
+  }
+ }
+}
+$grp GameEntity : "{DD96BA1FF0C2E5CD}Prefabs/Items/Equipment/BallisticTable/TF_BallisticTable_USSR_2B9.et" {
+ {
+  coords 3789.498 156.901 672.393
+  angles 2.135 53.392 2.87
+ }
+ {
+  coords 3789.473 156.871 671.92
+  angles 2.135 53.392 2.87
+ }
+ {
+  coords 3789.453 156.842 671.448
+  angles 2.135 53.392 2.87
+ }
+ {
+  coords 3789.413 156.812 670.981
+  angles 2.135 53.392 2.87
+ }
+ {
+  coords 3789.396 156.785 670.538
+  angles 2.135 53.392 2.87
+ }
+}

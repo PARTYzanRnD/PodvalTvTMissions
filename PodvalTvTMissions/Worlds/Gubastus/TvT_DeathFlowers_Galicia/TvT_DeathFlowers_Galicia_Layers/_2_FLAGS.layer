@@ -1,0 +1,24 @@
+GenericEntity : "{1AAC905FBE6CF779}PrefabsEditable/Auto/Structures/Military/Flags/E_FlagPole_02_V2_USSR.et" {
+ components {
+  SCR_FlagComponent "{5E3C95A1E1EE9681}" {
+   m_aObjectiveNames {
+    "USSR_WIN"
+    "CDF_WIN"
+   }
+   m_sFactionKey "USSR"
+   m_bUseAdvanceGameState 1
+   m_sUseNotification 1
+  }
+  BaseActionsManagerComponent "{6202D4E6F133BF4A}" {
+   additionalActions {
+    PS_FlagChangeAction "{6202D4E6A53D4B3C}" {
+     Duration 5
+     m_bUseAnimation 1
+     m_fAnimationFPS 60
+    }
+   }
+  }
+ }
+ coords 1364.337 21.353 2212.177
+ angles 0 155.94 -30
+}

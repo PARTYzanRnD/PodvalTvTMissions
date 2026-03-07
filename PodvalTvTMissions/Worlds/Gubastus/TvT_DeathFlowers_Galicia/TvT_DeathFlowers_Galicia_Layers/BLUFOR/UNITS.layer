@@ -1,0 +1,64 @@
+SCR_AIGroup CDF_202 : "{3F29EA2D79388D65}Prefabs/Groups/BLUFOR/Ses_CDF/Group_A2F_CDF_Motorized.et" {
+ components {
+  PS_GroupCallsignAssigner "{68A30C9A9E8D83F4}" {
+   m_iCompanyCallsign 2
+   m_iSquadCallsign 2
+  }
+ }
+ coords 432.185 92.508 3133.302
+ angles 0 -93.163 0
+}
+$grp SCR_AIGroup : "{6449AAD99869C0D5}Prefabs/Groups/BLUFOR/Ses_CDF/Group_A2F_CDF_Squad.et" {
+ CDF_100 {
+  components {
+   PS_GroupCallsignAssigner "{68A30C9A9E8D83F4}" {
+    m_iCompanyCallsign 1
+   }
+  }
+  coords 1427.892 7.208 2268.162
+  angles 0 156.465 0
+ }
+ CDF_101 {
+  components {
+   PS_GroupCallsignAssigner "{68A30C9A9E8D83F4}" {
+    m_iCompanyCallsign 1
+    m_iSquadCallsign 1
+   }
+  }
+  coords 1362.598 7.204 2197.192
+  angles 0 156.465 0
+ }
+ CDF_102 {
+  components {
+   PS_GroupCallsignAssigner "{68A30C9A9E8D83F4}" {
+    m_iCompanyCallsign 1
+    m_iSquadCallsign 2
+   }
+  }
+  coords 1504.127 6.807 2240.056
+  angles 0 156.465 0
+ }
+ CDF_200 {
+  components {
+   PS_GroupCallsignAssigner "{68A30C9A9E8D83F4}" {
+    m_iCompanyCallsign 2
+   }
+  }
+  coords 429.844 89.626 3095.248
+  angles 0 -82.342 0
+ }
+ CDF_201 {
+  components {
+   PS_GroupCallsignAssigner "{68A30C9A9E8D83F4}" {
+    m_iCompanyCallsign 2
+    m_iSquadCallsign 1
+   }
+  }
+  coords 432.22 91.185 3114.762
+  angles 0 -88.938 0
+ }
+}
+SCR_AIGroup CDF_000 : "{F2ABAC37E4537895}Prefabs/Groups/BLUFOR/Ses_CDF/Group_A2F_CDF_PL.et" {
+ coords 1448.384 6.807 2211.236
+ angles 0 156.02 0
+}
