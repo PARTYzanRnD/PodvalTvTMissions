@@ -1,4 +1,27 @@
 GenericEntity : "{592E8C59C778A189}Prefabs/System/GUB_ZoneControlBetweenFactionsPrefab.et" {
+ components {
+  GUB_ZoneControlComponent "{66E34DFE0E54C4B7}" {
+   m_aControlLogics {
+    GUB_ZoneControlLogic "{68CEB1C9090AA274}" {
+     m_sZonePreviewName "Муллодост захвачен."
+     m_sPreviewMessageToDescription "Победа Атаки."
+     m_Timer GUB_ZoneControlTimer "{68CEB1C93E3B59F0}" {
+      timeToComplete 180
+     }
+     m_ZoneController GUB_ZoneController "{68CEB1C930ED379E}" {
+      m_sZoneEntityName "Trigger"
+     }
+     m_aConditions {
+      GUB_ZoneControlBetweenFactionsCondition "{68CEB1CAEBBCA665}" {
+       m_sFirstFactionKey "RHS_AFRF"
+       m_sSecondFactionKey "RHS_USAF"
+       m_fComparisonMultiplier 2
+      }
+     }
+    }
+   }
+  }
+ }
 }
 GenericEntity : "{6A3CDCFB475BF1B2}Prefabs/System/DRG_CriticalLossPrefab.et" {
  components {
