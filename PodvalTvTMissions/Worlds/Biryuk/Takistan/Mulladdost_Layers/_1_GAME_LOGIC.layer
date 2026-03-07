@@ -5,6 +5,11 @@ GenericEntity : "{592E8C59C778A189}Prefabs/System/GUB_ZoneControlBetweenFactions
     GUB_ZoneControlLogic "{68CEB1C9090AA274}" {
      m_sZonePreviewName "Мулладост захвачен."
      m_sPreviewMessageToDescription "Победа Атаки."
+     m_bAdvanceGameStage 1
+     m_sSuccessObjectiveNames {
+      "USA_WIN_1"
+     }
+     m_sMessage "Победа Атаки."
      m_Timer GUB_ZoneControlTimer "{68CEB1C93E3B59F0}" {
       timeToComplete 180
      }
