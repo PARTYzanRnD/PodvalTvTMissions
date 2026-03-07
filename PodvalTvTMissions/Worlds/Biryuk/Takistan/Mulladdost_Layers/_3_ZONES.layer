@@ -8,7 +8,7 @@ PolylineShapeEntity RF : "{7019844BAD5C4DD8}Prefabs/PolyZone/PolyZone_Border.et"
    m_aVisibleForFactions {
     ""
     "RHS_USAF"
-    ""
+    "RHS_AFRF"
    }
   }
  }
