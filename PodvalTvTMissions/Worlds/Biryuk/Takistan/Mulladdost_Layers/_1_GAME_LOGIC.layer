@@ -1,0 +1,29 @@
+GenericEntity : "{592E8C59C778A189}Prefabs/System/GUB_ZoneControlBetweenFactionsPrefab.et" {
+}
+GenericEntity : "{6A3CDCFB475BF1B2}Prefabs/System/DRG_CriticalLossPrefab.et" {
+ components {
+  DRG_CriticalLossComponent "{65213D368F1BD792}" {
+   m_aLossLogics {
+    LossLogic "{68CE9354FD9AEF3C}" {
+     m_aLosses {
+      FactionLoss "{68CE9350C93A8CB9}" {
+       m_iCriticalLossCount 4
+       m_sFactionKey "RHS_AFRF"
+      }
+      FactionLoss "{68CE9350C9115477}" {
+       m_iCriticalLossCount 7
+       m_sFactionKey "RHS_USAF"
+      }
+     }
+    }
+   }
+  }
+ }
+}
+GenericEntity : "{E6FC6DD69FA3479F}Prefabs/System/DRG_MissionEndTimerPrefab.et" {
+ components {
+  DRG_MissionEndTimerComponent "{651B0839B21B3BBF}" {
+   m_iMissionTime 2700
+  }
+ }
+}
