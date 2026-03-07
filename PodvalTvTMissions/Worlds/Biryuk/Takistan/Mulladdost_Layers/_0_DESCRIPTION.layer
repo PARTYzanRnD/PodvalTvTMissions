@@ -1,8 +1,8 @@
 $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
  ABOUT {
   m_sTitle "Цель миссии"
-  m_sTextData "ВС РФ: Удержать Муллодост"\
-  "ВС США: Захватить Муллодост"
+  m_sTextData "ВС РФ: Удержать Мулладост"\
+  "ВС США: Захватить Мулладост"
   m_bEmptyFactionVisibility 1
   m_bShowForAnyFaction 1
  }
