@@ -11,8 +11,8 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "• ЧСО запрещён въезд в красную зону"\
   ""\
   "ЗАДАЧИ"\
-  "— ЧСО: захватить флаг (5 сек.)"\
-  "— СССР: удержать флаг"
+  "— СССР: захватить флаг (5 сек.)"\
+  "— ЧСО: удержать флаг"
   m_bEmptyFactionVisibility 1
   m_bShowForAnyFaction 1
  }
