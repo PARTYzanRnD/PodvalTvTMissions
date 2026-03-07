@@ -1,0 +1,17 @@
+Vehicle BTR70_Ses_CDF1 : "{3F3F663ED52E08B5}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Ses_CDF.et" {
+ coords 427.736 92.803 3137.479
+ angles -4.467 180 0
+ m_sAttachmentGroupName "CDF_202"
+}
+$grp Vehicle : "{B3BE9258C89E8491}Prefabs/Vehicles/Wheeled/Ural4320/Ses_CDF/Ural4320_Ses_CDF_transport_covered.et" {
+ Ural4320_Ses_CDF_transport_covered1 {
+  coords 427.806 91.483 3119.021
+  angles -4.514 -176.404 0.611
+  m_sAttachmentGroupName "CDF_201"
+ }
+ Ural4320_Ses_CDF_transport_covered2 {
+  coords 426.201 89.95 3099.708
+  angles -4.514 -176.404 0.611
+  m_sAttachmentGroupName "CDF_200"
+ }
+}

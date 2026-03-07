@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{DF63495E5C2E003D}Worlds/Gubastus/TvT_DeathFlowers_Galicia/TvT_DeathFlowers_Galicia.ent"
+ Configurations {
+  ENTResourceClass PC {
+  }
+  ENTResourceClass XBOX_ONE : PC {
+  }
+  ENTResourceClass XBOX_SERIES : PC {
+  }
+  ENTResourceClass PS4 : PC {
+  }
+  ENTResourceClass PS5 : PC {
+  }
+  ENTResourceClass HEADLESS : PC {
+  }
+  ENTResourceClass Xbox : PC {
+  }
+ }
+}

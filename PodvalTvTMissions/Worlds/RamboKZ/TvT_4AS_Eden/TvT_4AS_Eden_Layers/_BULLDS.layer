@@ -1,29 +1,3 @@
-$grp GenericEntity {
- {
-  coords 5814.052 13.638 9787.096
-  angles 0 116.311 0
- }
- {
-  coords 5813.844 13.638 9787.476
-  angles 0 80.343 0
- }
- {
-  coords 5813.749 13.638 9787.2
-  angles 0 89.605 0
- }
- {
-  coords 5813.65 13.638 9787.47
-  angles 0 89.605 0
- }
- {
-  coords 5813.92 13.638 9787.269
-  angles 0 84.151 0
- }
- {
-  coords 5813.548 13.638 9787.198
-  angles 0 89.605 0
- }
-}
 SCR_DestructibleBuildingEntity : "{06804C659EF7C47D}Prefabs/Structures/Infrastructure/Power/TransformerStation_E_01/TransformerStation_E_01.et" {
  coords 5800.658 0.001 9734.343
  angles 0 -89.305 0
@@ -272,9 +246,6 @@ GenericEntity : "{B8EA3DCD71F736B5}Prefabs/Structures/BuildingParts/Eletrical/Di
   }
  }
  coords 5905.118 4.563 9726.223
-}
-SCR_ChimeraCharacter : "{BC3BF750DE15DF34}Prefabs/Characters/Factions/INDFOR/RHS_ION/PMC/Drg_Character_RHS_ION_PMC_LAT_v4.et" {
- coords 5707.75 12.084 9618.209
 }
 $grp GenericEntity : "{BE16EE8FAA315FE2}Prefabs/Props/Military/Sandbags/Sandbag_01_long_high_burlap.et" {
  {

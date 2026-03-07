@@ -10,17 +10,13 @@ Vehicle CIV_SAR : "{AD80FB47D868C775}Prefabs/Vehicles/Wheeled/S105/S105_green.et
  coords 5853.01 4.562 9807.3
  angles 0 -90.347 0
 }
-SCR_AIGroup CIV_000 : "{F9652067979208AA}Prefabs/Groups/CIV/DRG_Group_CIV.et" {
- components {
-  AIFormationComponent "{507E9DC12F541FE6}" {
-   DefaultFormation "column"
-  }
- }
- coords 5811.836 12.731 9785.799
- angles 0 89.889 0
+SCR_AIGroup CIV_000 : "{D43A9753198C5D8F}Prefabs/Groups/OPFOR/RHS_AFRF/Regular/Group_RHS_AFRF_Regular_Heli.et" {
+ coords 5811.884 12.744 9785.74
+ angles 0 89.6 0
+ m_faction "CIV"
  m_aUnitPrefabSlots {
-  "{9DA94F023E38C7E4}Prefabs/Characters/Factions/CIV/Businessman/Character_CIV_Businessman_2.et"
+  "{95F2B7DA700B3A51}Prefabs/Characters/Factions/CIV/Businessman/Character_CIV_Businessman_Randomized_P.et"
  }
  m_bSnapToTerrain 0
- m_sCustomNameSet "Нач. Электростанции"
+ m_sCustomNameSet "Начальник электростанции"
 }

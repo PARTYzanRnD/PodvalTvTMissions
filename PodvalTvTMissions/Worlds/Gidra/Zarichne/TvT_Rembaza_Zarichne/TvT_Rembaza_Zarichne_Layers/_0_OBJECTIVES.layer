@@ -1,0 +1,26 @@
+$grp PS_Objective : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
+ ChDKZ_WIN {
+  coords 3660.523 30.045 3394.913
+  m_sTitle "Рембаза удержана"
+  m_iScore 50
+  m_sFactionKey "Ses_ChDKZ"
+ }
+ CDF_WIN {
+  coords 3437.871 0 3755.694
+  m_sTitle "Рембаза захвачена"
+  m_iScore 50
+  m_sFactionKey "Ses_CDF"
+ }
+ ChDKZ_WIN1 {
+  coords 3853.671 0 3431.8
+  m_sTitle "КШМ сохрвнён"
+  m_iScore 50
+  m_sFactionKey "Ses_ChDKZ"
+ }
+ CDF_WIN1 {
+  coords 3837.133 0 3251.984
+  m_sTitle "КШМ уничтожен"
+  m_iScore 50
+  m_sFactionKey "Ses_CDF"
+ }
+}
