@@ -23,6 +23,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_aVisibleForFactions {
    "US"
    "USSR"
+   "CIV"
    ""
   }
   m_bEmptyFactionVisibility 1
@@ -39,6 +40,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_aVisibleForFactions {
    "US"
    "USSR"
+   "CIV"
    ""
   }
   m_bEmptyFactionVisibility 1
@@ -54,6 +56,11 @@ $grp PS_Objective : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
   coords 5451.62 418.579 5644.321
   m_sTitle "Николай Змеёв ликвидирован"
   m_sFactionKey "USSR"
+ }
+ {
+  coords 5451.62 418.579 5644.321
+  m_sTitle "Николай Змеёв выжил"
+  m_sFactionKey "CIV"
  }
 }
 GenericEntity : "{E6FC6DD69FA3479F}Prefabs/System/DRG_MissionEndTimerPrefab.et" {

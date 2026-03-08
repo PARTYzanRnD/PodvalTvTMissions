@@ -9,7 +9,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_sDescription "Травматологическое отделение"
   m_aVisibleForFactions {
    "US"
-   "ION"
+   "USSR"
    "CIV"
    ""
   }
@@ -25,7 +25,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_sDescription "Хирургическое отделение"
   m_aVisibleForFactions {
    "US"
-   "ION"
+   "USSR"
    "CIV"
    ""
   }
@@ -41,7 +41,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_sDescription "Терапевтическое отделение"
   m_aVisibleForFactions {
    "US"
-   "ION"
+   "USSR"
    "CIV"
    ""
   }
@@ -57,7 +57,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_sDescription "Операционное отделение"
   m_aVisibleForFactions {
    "US"
-   "ION"
+   "USSR"
    "CIV"
    ""
   }
@@ -73,7 +73,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_sDescription "Физиотерапевтическое отделение"
   m_aVisibleForFactions {
    "US"
-   "ION"
+   "USSR"
    "CIV"
    ""
   }

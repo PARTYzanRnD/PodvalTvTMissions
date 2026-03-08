@@ -1,3 +1,7 @@
+Vehicle AH1S_Marines1 : "{0174CF72FDB6B805}Prefabs/Vehicles/Helicopters/AH1S/AH1S_Marines.et" {
+ coords 3850.179 18.217 6940.664
+ angles 0 87.28 0
+}
 SCR_AIGroup : "{09F6CBFB9260D79C}Prefabs/Groups/BLUFOR/RHS_USAF/USMC/Desert/dim_USMC_D_HQ.et" {
  coords 6098.222 124.189 6140.971
  angles 0 16.95 0
@@ -9,10 +13,6 @@ Vehicle LAV25_RHS_D1 : "{123595894023C474}Prefabs/Vehicles/Wheeled/LAV25/LAV25_R
  coords 2049.334 18.531 5945.013
  angles 0 168.941 0
  m_sAttachmentGroupName "us5"
-}
-Vehicle AH1G_Armed1 : "{1C87A29CF461FFAA}Prefabs/Vehicles/Helicopters/AH1G/AH1G_Armed.et" {
- coords 3849.992 18.252 6941.052
- angles 0 86.323 0
 }
 $grp SCR_AIGroup : "{3298D6DA95D73EAD}Prefabs/Groups/BLUFOR/RHS_USAF/USMC/Desert/dim_USMC_D_Rifle_Squad.et" {
  us {

@@ -17,6 +17,7 @@ PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_Game
   }
  }
  coords 6442.018 43.311 4092.601
+ m_iFreezeTime 360000
 }
 CinematicEntity Sex {
  coords 0 0 0

@@ -17,6 +17,11 @@ GenericEntity : "{56E21E3119E019E8}PrefabsEditable/Auto/Structures/Signs/Militar
   }
  }
 }
+PS_Objective : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
+ coords 6220.51 131.72 483.773
+ m_sTitle "Гостовини Аль Подвали выжил"
+ m_sFactionKey "CIV"
+}
 $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
  Ses_TKA_G_100_M {
   coords 6487.022 17.843 6769.344

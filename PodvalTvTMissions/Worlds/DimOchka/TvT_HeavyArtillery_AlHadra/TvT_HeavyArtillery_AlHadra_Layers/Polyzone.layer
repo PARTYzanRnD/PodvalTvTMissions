@@ -11,6 +11,7 @@ $grp PolylineShapeEntity {
     m_aVisibleForFactions {
      "Ses_TKA"
      "RHS_USAF"
+     "CIV"
      ""
     }
    }
@@ -71,6 +72,7 @@ $grp PolylineShapeEntity {
     m_aVisibleForFactions {
      "Ses_TKA"
      "RHS_USAF"
+     "CIV"
      ""
     }
    }
@@ -220,6 +222,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_aVisibleForFactions {
    "Ses_TKA"
    "RHS_USAF"
+   "CIV"
    ""
   }
   m_bVisibleForEmptyFaction 1
@@ -235,6 +238,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_aVisibleForFactions {
    "Ses_TKA"
    "RHS_USAF"
+   "CIV"
    ""
   }
   m_bVisibleForEmptyFaction 1
@@ -250,6 +254,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_aVisibleForFactions {
    "Ses_TKA"
    "RHS_USAF"
+   "CIV"
    ""
   }
   m_bVisibleForEmptyFaction 1
@@ -265,6 +270,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_aVisibleForFactions {
    "Ses_TKA"
    "RHS_USAF"
+   "CIV"
    ""
   }
   m_bVisibleForEmptyFaction 1
@@ -280,6 +286,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_aVisibleForFactions {
    "Ses_TKA"
    "RHS_USAF"
+   "CIV"
    ""
   }
   m_bVisibleForEmptyFaction 1
@@ -295,6 +302,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_aVisibleForFactions {
    "Ses_TKA"
    "RHS_USAF"
+   "CIV"
    ""
   }
   m_bVisibleForEmptyFaction 1
@@ -310,6 +318,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_aVisibleForFactions {
    "Ses_TKA"
    "RHS_USAF"
+   "CIV"
    ""
   }
   m_bVisibleForEmptyFaction 1
@@ -325,6 +334,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_aVisibleForFactions {
    "Ses_TKA"
    "RHS_USAF"
+   "CIV"
    ""
   }
   m_bVisibleForEmptyFaction 1

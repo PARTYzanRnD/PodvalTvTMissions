@@ -6,6 +6,7 @@ PerceptionManager PerceptionManager2 : "{028DAEAD63E056BE}Prefabs/World/Game/Per
 }
 PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_GameMode_Lobby.et" {
  coords 118.79 80.491 8083.633
+ m_iFreezeTime 360000
 }
 GenericEntity : "{14C6F846207A0DC8}Prefabs/Props/Civilian/Notebook_01/Notebook_01_open_Huey.et" {
  coords 1764.865 59.88 5892.174
