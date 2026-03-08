@@ -147,6 +147,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
    "US"
    "FIA"
    "Drg_VCA"
+   "CIV"
   }
   m_bVisibleForEmptyFaction 1
   m_aHideOnGameModeStates {
@@ -177,6 +178,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
    "US"
    "FIA"
    "Drg_VCA"
+   "CIV"
   }
   m_bVisibleForEmptyFaction 1
   m_aHideOnGameModeStates {
@@ -207,6 +209,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
    "US"
    "FIA"
    "Drg_VCA"
+   "CIV"
   }
   m_bVisibleForEmptyFaction 1
   m_aHideOnGameModeStates {
@@ -237,6 +240,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
    "US"
    "FIA"
    "Drg_VCA"
+   "CIV"
   }
   m_bVisibleForEmptyFaction 1
   m_aHideOnGameModeStates {
@@ -267,6 +271,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
    "US"
    "FIA"
    "Drg_VCA"
+   "CIV"
   }
   m_bVisibleForEmptyFaction 1
   m_aHideOnGameModeStates {
@@ -297,6 +302,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
    "US"
    "FIA"
    "Drg_VCA"
+   "CIV"
   }
   m_bVisibleForEmptyFaction 1
   m_aHideOnGameModeStates {
@@ -327,6 +333,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
    "US"
    "FIA"
    "Drg_VCA"
+   "CIV"
   }
   m_bVisibleForEmptyFaction 1
   m_aHideOnGameModeStates {
