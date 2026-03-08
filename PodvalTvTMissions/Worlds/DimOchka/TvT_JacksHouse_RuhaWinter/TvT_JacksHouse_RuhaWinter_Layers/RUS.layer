@@ -15,21 +15,6 @@ $grp Vehicle : "{00AED68EFBF251BA}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_tra
   m_sAttachmentGroupName "RUS3"
  }
 }
-Vehicle APC_K17_Epoch_NoPTUR1 : "{136AF62C14074BD6}Prefabs/Vehicles/Wheeled/K17/APC_K17_Epoch_NoPTUR.et" {
- components {
-  MeshObject "{51DAA09FEFBFC0E7}" {
-   Materials {
-    MaterialAssignClass "{68CF23D64C512A30}" {
-     SourceMaterial "Hull"
-     AssignedMaterial "{BA9960BE0FD033F4}Assets/Vehicles/Wheeled/K17bumerang/Data/camo_expo/Hull_camoExpo.emat"
-    }
-   }
-  }
- }
- coords 6140.342 56.875 6887.218
- angles 0 -60 0
- m_sAttachmentGroupName "RUS7"
-}
 $grp SCR_AIGroup : "{26C6EA8625804502}Prefabs/Groups/OPFOR/RHS_AFRF/VDV/Winter/dim_AFRF_Winter_MotoSquad.et" {
  RUS5 {
   components {

@@ -423,6 +423,11 @@ GenericEntity : "{460A6F2253BF4D9F}Prefabs/Props/S2/S2_Guitar/S2_Guitar.et" {
  coords 1761.352 59.286 5892.443
  angles 0 -90 -75
 }
+Vehicle APC_K17_Epoch_NoPTUR_Camo1 : "{4EB3A85054A8E899}Prefabs/Vehicles/Wheeled/K17/APC_K17_Epoch_NoPTUR_Camo.et" {
+ coords 6140.342 56.875 6887.218
+ angles 0 -60 0
+ m_sAttachmentGroupName "RUS7"
+}
 $grp GenericEntity : "{4F4439BAA80A7A66}Prefabs/Weapons/Magazines/Magazine_762x51_L42a1_10rnd_Base.et" {
  {
   coords 1760.876 59.024 5888.452
