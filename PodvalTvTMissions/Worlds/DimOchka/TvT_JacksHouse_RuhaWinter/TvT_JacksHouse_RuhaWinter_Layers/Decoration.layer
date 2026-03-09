@@ -6,10 +6,6 @@ $grp GenericEntity : "{00E36F41CA310E2A}Prefabs/Items/Medicine/SalineBag_01/Sali
   coords 1764.764 59.447 5889.953
  }
 }
-GenericEntity : "{06123770E28E51F6}Prefabs/Weapons/Rifles/L42A1/Rifle_L8T.et" {
- coords 1761.085 59.259 5888.468
- angles 77.473 153.132 64.412
-}
 GenericEntity : "{0B6E93F385AF49EA}Prefabs/Weapons/Rifles/M16/Rifle_M16A2_carbine_m855a1.et" {
  coords 1764.499 59.003 5889.669
  angles 0 0 90
@@ -428,23 +424,23 @@ Vehicle APC_K17_Epoch_NoPTUR_Camo1 : "{4EB3A85054A8E899}Prefabs/Vehicles/Wheeled
  angles 0 -60 0
  m_sAttachmentGroupName "RUS7"
 }
-$grp GenericEntity : "{4F4439BAA80A7A66}Prefabs/Weapons/Magazines/Magazine_762x51_L42a1_10rnd_Base.et" {
- {
-  coords 1760.876 59.024 5888.452
- }
- {
-  coords 1760.876 59.024 5888.558
- }
- {
-  coords 1760.838 59.024 5888.452
- }
- {
-  coords 1760.829 59.024 5888.558
- }
-}
 GenericEntity : "{4FAD128BE9F66C6F}Prefabs/Items/Equipment/Watches/Watch_Vostok_Map.et" {
  coords 1764.362 59.877 5892.123
  angles 0 75 0
+}
+$grp GenericEntity : "{5670092FD8D14448}Prefabs/Weapons/Magazines/Magazine_762x51_L42a1_10rnd_M61.et" {
+ {
+  coords 1760.925 59.021 5888.423
+ }
+ {
+  coords 1760.911 59.02 5888.532
+ }
+ {
+  coords 1760.839 59.02 5888.525
+ }
+ {
+  coords 1760.832 59.02 5888.429
+ }
 }
 GenericEntity : "{5C43849674AA7259}Prefabs/Props/Military/Photos/Photo_Square_01/Photo_Square_01_V2_magnet.et" {
  coords 1763.667 59.768 5892.538
@@ -545,6 +541,10 @@ $grp GenericEntity : "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/
  {
   coords 1764.426 59.474 5889.872
  }
+}
+GenericEntity : "{C6F24C963EA4C1EF}Prefabs/Weapons/Rifles/L42A1/Rifle_L8T_M61.et" {
+ coords 1761.085 59.259 5888.468
+ angles 77.473 153.132 64.412
 }
 GenericEntity : "{C819E0B7454461F2}Prefabs/Items/Equipment/Compass/Compass_Adrianov_Map.et" {
  coords 1764.294 59.886 5891

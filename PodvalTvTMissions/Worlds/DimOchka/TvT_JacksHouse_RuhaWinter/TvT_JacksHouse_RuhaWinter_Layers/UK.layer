@@ -199,12 +199,12 @@ $grp Vehicle : "{701ADC27F9D842DF}Prefabs/Vehicles/Wheeled/LR_3Series/3Series_LW
  _Series_LWB_Transport1 {
   coords 2155.616 63.495 1532.314
   angles 0.888 82.819 -0.112
-  m_sAttachmentGroupName "uk"
+  m_sAttachmentGroupName "uk4"
  }
  _Series_LWB_Transport2 {
   coords 2147.745 63.438 1531.701
   angles 0 89.554 0
-  m_sAttachmentGroupName "uk"
+  m_sAttachmentGroupName "uk4"
  }
  _Series_LWB_Transport3 {
   coords 2172.009 63.25 1536.645
