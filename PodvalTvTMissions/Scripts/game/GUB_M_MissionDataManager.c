@@ -1,5 +1,7 @@
 modded class PS_MissionDataManager
 {
+	protected ref set<RplId> m_DeadEntities = new set<RplId>();
+	
 	override void InitData()
 	{
 		string localization = "ru_ru";
@@ -273,6 +275,10 @@ modded class PS_MissionDataManager
 		
 		if (state == EDamageState.DESTROYED)
 		{ 
+			if (m_DeadEntities.Contains(targetId))
+				return;
+			m_DeadEntities.Insert(targetId);
+			
             Print(string.Format("PLAYER DIED: %1 (killed by %2)", targetId, playerId), LogLevel.WARNING);
             
             PS_MissionDataPlayerKill killData = new PS_MissionDataPlayerKill();
