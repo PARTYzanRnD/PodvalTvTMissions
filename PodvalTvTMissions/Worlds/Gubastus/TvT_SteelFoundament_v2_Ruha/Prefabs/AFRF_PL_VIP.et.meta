@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{B9CD243AF2A9C3FC}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_Officer_VIP.et"
+ Name "{B9CD243AF2A9C3FC}Worlds/Gubastus/TvT_SteelFoundament_v2_Ruha/Prefabs/AFRF_PL_VIP.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }

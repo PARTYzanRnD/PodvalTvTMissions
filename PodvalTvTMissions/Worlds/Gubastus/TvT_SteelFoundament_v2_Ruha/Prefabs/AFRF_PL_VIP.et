@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{83EC1FC85CC0AADE}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Army/drg_Role_RHS_AFRF_Army_Officer.et" {
+SCR_ChimeraCharacter : "{009BAC7973309559}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Regular/Char_RHS_AFRF_Regular_PL.et" {
  ID "520EC961A090B1EE"
  components {
   ActionsManagerComponent "{520EA1D2F659CE02}" {
