@@ -3,39 +3,35 @@ GenericEntity : "{592E8C59C778A189}Prefabs/System/GUB_ZoneControlBetweenFactions
   GUB_ZoneControlComponent "{66E34DFE0E54C4B7}" {
    m_aControlLogics {
     GUB_ZoneControlLogic "{68CEB1C9090AA274}" {
-     m_sZonePreviewName "Муллодост захвачен."
-     m_sPreviewMessageToDescription "Победа Атаки."
+     m_sZonePreviewName "Мулладост"
+     m_bAdvanceGameStage 1
+     m_sSuccessObjectiveNames {
+      "USA_WIN_1"
+     }
+     m_sFailedObjectiveNames {
+      "RF_WIN_1"
+     }
+     m_sMessage "Победа Атаки, город захвачен!"
      m_Timer GUB_ZoneControlTimer "{68CEB1C93E3B59F0}" {
       timeToComplete 180
      }
      m_ZoneController GUB_ZoneController "{68CEB1C930ED379E}" {
       m_sZoneEntityName "Trigger"
      }
+     m_FlagController GUB_FlagController "{68CEDCC516125493}" {
+      m_aFlagNames {
+       "FLAG_1"
+       "FLAG_2"
+      }
+      m_fStartFactionKey "RHS_AFRF"
+      m_fEndFactionKey "RHS_USAF"
+     }
      m_aConditions {
       GUB_ZoneControlBetweenFactionsCondition "{68CEB1CAEBBCA665}" {
-       m_sFirstFactionKey "RHS_AFRF"
-       m_sSecondFactionKey "RHS_USAF"
+       m_sFirstFactionKey "RHS_USAF"
+       m_sSecondFactionKey "RHS_AFRF"
        m_fComparisonMultiplier 2
-      }
-     }
-    }
-   }
-  }
- }
-}
-GenericEntity : "{6A3CDCFB475BF1B2}Prefabs/System/DRG_CriticalLossPrefab.et" {
- components {
-  DRG_CriticalLossComponent "{65213D368F1BD792}" {
-   m_aLossLogics {
-    LossLogic "{68CE9354FD9AEF3C}" {
-     m_aLosses {
-      FactionLoss "{68CE9350C93A8CB9}" {
-       m_iCriticalLossCount 4
-       m_sFactionKey "RHS_AFRF"
-      }
-      FactionLoss "{68CE9350C9115477}" {
-       m_iCriticalLossCount 7
-       m_sFactionKey "RHS_USAF"
+       m_iOperator GREATER
       }
      }
     }

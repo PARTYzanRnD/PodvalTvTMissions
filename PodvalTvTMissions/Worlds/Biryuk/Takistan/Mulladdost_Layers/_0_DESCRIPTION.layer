@@ -1,13 +1,14 @@
 $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
  ABOUT {
-  m_sTitle "Лор"
-  m_sTextData "Русские Мулладдост защищают, а американцы нападают."
+  m_sTitle "Цель миссии"
+  m_sTextData "ВС РФ: Удержать Мулладост"\
+  "ВС США: Захватить Мулладост"
   m_bEmptyFactionVisibility 1
   m_bShowForAnyFaction 1
  }
  RULES {
   m_sTitle "Правила"
-  m_sTextData "Не нарушай правила проекта. "
+  m_sTextData "На миссии действуют правила для игры на ивентах."
   m_bEmptyFactionVisibility 1
   m_bShowForAnyFaction 1
  }
@@ -16,7 +17,9 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "Условности"
   m_sTextData "Инженерный урал запрещено вывозить за пределы красного триггера. "\
   ""\
-  "Условие захвата: наличие двойного численного преимущества в зоне триггера на протяжении 180 секунд ( 3 минуты )."\
+  "Всем запрещено пересекать черный триггер. "\
+  ""\
+  "Условие захвата: наличие двойного численного преимущества в зоне триггера на протяжении 180 секунд (3 минуты)."\
   ""\
   ""
   m_bEmptyFactionVisibility 1

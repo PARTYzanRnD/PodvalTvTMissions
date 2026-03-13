@@ -1,11 +1,12 @@
 GenericEntity : "{1AAC905FBE6CF779}PrefabsEditable/Auto/Structures/Military/Flags/E_FlagPole_02_V2_USSR.et" {
  components {
   SCR_FlagComponent "{5E3C95A1E1EE9681}" {
+   m_sDefaultMaterial "{1D4A447A3E34C70E}Assets/Props/Fabric/Flags/Data/Flag_1_2_CDF.emat"
    m_aObjectiveNames {
     "USSR_WIN"
     "CDF_WIN"
    }
-   m_sFactionKey "USSR"
+   m_sFactionKey "Ses_CDF"
    m_bUseAdvanceGameState 1
    m_sUseNotification 1
   }
