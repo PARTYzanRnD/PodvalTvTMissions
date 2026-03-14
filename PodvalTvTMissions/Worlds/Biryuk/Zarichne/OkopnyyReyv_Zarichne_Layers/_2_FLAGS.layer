@@ -1,7 +1,6 @@
 $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
  {
   coords 3001.931 19.904 2223.619
-  angles 0 -90 0
   m_MarkerColor 0.502 0 0 1
   m_sQuadName "flag-2"
   m_sDescription "Флаг"
@@ -13,7 +12,6 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
  }
  {
   coords 3227.479 21.324 1834.625
-  angles 0 -90 0
   m_MarkerColor 0.502 0 0 1
   m_sQuadName "flag-2"
   m_sDescription "Флаг"
@@ -25,7 +23,6 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
  }
  {
   coords 2867.507 21.312 1905.077
-  angles 0 -90 0
   m_MarkerColor 0.502 0 0 1
   m_sQuadName "flag-2"
   m_sDescription "Флаг"
@@ -44,6 +41,15 @@ $grp GenericEntity : "{F5EF4223ACA6169C}PrefabsEditable/Auto/Structures/Military
      "USAF_FLAG1"
     }
    }
+   BaseActionsManagerComponent "{6202D4E6F133BF4A}" {
+    additionalActions {
+     PS_FlagChangeAction "{6202D4E6A53D4B3C}" {
+      ActionTitle "У"
+      Duration 5
+      m_bUseAnimation 1
+     }
+    }
+   }
   }
   coords 3227.726 21.504 1834.709
   angles 34.415 163.891 -14.542
@@ -55,14 +61,24 @@ $grp GenericEntity : "{F5EF4223ACA6169C}PrefabsEditable/Auto/Structures/Military
      "USAF_FLAG3"
     }
    }
+   BaseActionsManagerComponent "{6202D4E6F133BF4A}" {
+    additionalActions {
+     PS_FlagChangeAction "{6202D4E6A53D4B3C}" {
+      Duration 5
+      m_bUseAnimation 1
+     }
+    }
+   }
   }
   coords 3001.912 19.509 2223.495
  }
  Flag_3 {
   components {
-   SCR_FlagComponent "{5E3C95A1E1EE9681}" {
-    m_aObjectiveNames {
-     "USAF_FLAG2"
+   BaseActionsManagerComponent "{6202D4E6F133BF4A}" {
+    additionalActions {
+     PS_FlagChangeAction "{6202D4E6A53D4B3C}" {
+      Duration 5
+     }
     }
    }
   }
