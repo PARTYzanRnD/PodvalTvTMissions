@@ -116,3 +116,37 @@ GenericEntity : "{98A61E5FF5898619}Prefabs/Structures/Military/Houses/GarageMili
  coords 7519.982 20.67 4857.7
  angles 0 97.666 0
 }
+$grp SCR_DestructibleEntity : "{9AE2BF8692551FE0}Prefabs/Structures/Walls/BarbedWire/NetFence_USSR_01/NetFence_USSR_01_3m.et" {
+ {
+  coords 7655.528 0 4827.417
+  angles 0 105 0
+ }
+ {
+  coords 7654.989 0 4824.432
+  angles 0 15 0
+ }
+ {
+  coords 7657.931 0 4823.644
+  angles 0 15 0
+ }
+ {
+  coords 7660.779 0 4822.881
+  angles 0 15 0
+ }
+ {
+  coords 7663.821 -0.028 4822.209
+  angles 0 -75 0
+ }
+ {
+  coords 7664.583 -0.009 4825.059
+  angles 0 -75 0
+ }
+ {
+  coords 7665.377 0 4828.025
+  angles 0 -75 0
+ }
+}
+SCR_DestructibleEntity : "{E06B2F4B00343A36}Prefabs/Structures/Walls/BarbedWire/NetFence_USSR_01/NetFence_USSR_01_base.et" {
+ coords 7665.915 0 4830.772
+ angles 0 -86.518 0
+}
