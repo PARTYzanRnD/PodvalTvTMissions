@@ -12,7 +12,7 @@ Vehicle M923A1_command1 : "{36BDCC88B17B3BFA}Prefabs/Vehicles/Wheeled/M923A1/M92
 Vehicle UH1H_armed_AP_HE1 : "{7BC74A3F9EDBEFF4}Prefabs/Vehicles/Helicopters/UH1H/UH1H_armed_AP_HE.et" {
  coords 251.559 40.053 3148.854
  angles 0 79.697 0
- m_sAttachmentGroupName "AFRF_300"
+ m_sAttachmentGroupName "USAF_300"
 }
 $grp Vehicle : "{7D9A9AD859069D09}Prefabs/Vehicles/Wheeled/M998/M998_covered_long_USAF_D.et" {
  M998_covered_long_USAF_D1 {
