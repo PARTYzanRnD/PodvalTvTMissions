@@ -1,7 +1,3 @@
-Vehicle M1083_Transport_Covered_Woodland1 : "{11FB7857ABEF62B7}Prefabs/Vehicles/Wheeled/M1083/M1083_Transport_Covered_Woodland.et" {
- coords 4517.604 19.354 2089.622
- angles 0 -87.705 0
-}
 SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneLarge.et" {
  coords 4550.472 19.351 2071.502
 }
@@ -47,11 +43,6 @@ PolylineShapeEntity : "{BD11B8FAA469D169}Prefabs/PolyZone/PolyZone.et" {
   }
  }
  IsClosed 0
-}
-Vehicle M1083_Command1 : "{D9E287595E3AF7C5}Prefabs/Vehicles/Wheeled/M1083/M1083_Command.et" {
- coords 4517.429 19.304 2080.034
- angles 0.462 -88.048 0
- m_sAttachmentGroupName "US_HQ_000"
 }
 $grp SCR_EditorRestrictionZoneEntity : "{EF72FA7CD87618D5}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneSmall.et" {
  {
