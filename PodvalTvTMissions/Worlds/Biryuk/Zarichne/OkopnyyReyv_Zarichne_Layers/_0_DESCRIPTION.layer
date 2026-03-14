@@ -1,7 +1,7 @@
 $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
  ABOUT {
   m_sTitle "Лор"
-  m_sTextData "Полковник Пердой, предал нас и сдал северные укрепления. Морская пехота США, готовит наступление на нас. "
+  m_sTextData "Полковник Пердой, предал ВС РФ и сдал северные укрепления. Морская пехота США, готовит наступление на РФ."
   m_bEmptyFactionVisibility 1
   m_bShowForAnyFaction 1
  }
@@ -13,9 +13,14 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  }
  ABOUT2 {
   coords 2852.622 20.757 1913.378
-  m_sTitle "Условности"
-  m_sTextData "Всем запрещено покидать черный триггер ( умрешь )."\
-  "ВС рф не может пересикать красную линию ( умрешь)."
+  m_sTitle "Условности и Задачи."
+  m_sTextData "Всем запрещено покидать черный триггер (умрешь)."\
+  "ВС РФ  не может пересикать красную линию (умрешь)."\
+  ""\
+  "Удеражать  РФ  \ захвать США. "\
+  "Коровник - 20 очков."\
+  "Южные укрепления - 40 очков."\
+  "Северные укрепления - 40 очков."
   m_bEmptyFactionVisibility 1
   m_bShowForAnyFaction 1
  }
