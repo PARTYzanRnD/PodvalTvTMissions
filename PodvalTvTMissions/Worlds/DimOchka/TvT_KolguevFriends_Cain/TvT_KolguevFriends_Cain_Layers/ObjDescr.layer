@@ -89,19 +89,19 @@ PolylineShapeEntity {
    Position -2602.712 -0.686 -3277.292
   }
   ShapePoint "{68DC17A5AD1DA89B}" {
-   Position -2246.93 -8.007 -3276.451
+   Position -264.804 -132.965 -6162.297
   }
   ShapePoint "{68DC17A5AD519C1C}" {
-   Position -1735.196 -12.083 -3049.227
+   Position 2771.28 -117.063 -5653.925
   }
   ShapePoint "{68DC17A5AC2C69B1}" {
-   Position -771.009 -31.99 -2256.384
+   Position 3616.153 -147.442 -4456.434
   }
   ShapePoint "{68DC17A5AFB4F416}" {
-   Position -362.674 -31.33 -1406.375
+   Position 3923.602 -121.884 -2274.321
   }
   ShapePoint "{68DC17A5AF6628AA}" {
-   Position -110.852 -5.4 -434.704
+   Position 1018.344 -74.102 -308.483
   }
  }
  IsClosed 1
