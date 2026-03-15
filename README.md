@@ -1,7 +1,6 @@
 # PodvalTvTMissions
 
 
-
 ## Getting started
 
 To make it easy for you to get started with GitLab, here's a list of recommended next steps.
@@ -15,14 +14,14 @@ Already a pro? Just edit this README.md and make it your own. Want to make it ea
 
 ```
 cd existing_repo
-git remote add origin https://gitlab.com/podval2/podvaltvtmissions.git
+git remote add origin https://gitlab.com/podval2/podvaltvtprefabs.git
 git branch -M main
 git push -uf origin main
 ```
 
 ## Integrate with your tools
 
-* [Set up project integrations](https://gitlab.com/podval2/podvaltvtmissions/-/settings/integrations)
+* [Set up project integrations](https://gitlab.com/podval2/podvaltvtprefabs/-/settings/integrations)
 
 ## Collaborate with your team
 
@@ -87,64 +86,8 @@ You can also document commands to lint the code or run tests. These steps help t
 Show your appreciation to those who have contributed to the project.
 
 ## License
-
-PODVAL ARMA LICENSE
-
-ЛИЦЕНЗИОННОЕ СОГЛАШЕНИЕ
-Настоящий проект и все входящие в него материалы (включая исходный код, сценарии, скрипты, модели, текстуры, конфигурационные файлы и другие цифровые ресурсы) разрабатываются и распространяются в рамках проекта PODVAL Arma.
-Принадлежность
-Все права на интеллектуальную собственность, связанные с данным модом, принадлежат проекту PODVAL Arma как коллективной организации, а не отдельным физическим лицам, участвующим в его разработке.
-Контент участников (Contributors)
-Любой пользователь или участник сообщества, добровольно предоставляющий материалы для включения в данный мод (сценарии, миссии, скрипты, конфигурации, модели, текстуры или иной контент):
-• подтверждает, что имеет право распространять данный контент
-• предоставляет проекту PODVAL Arma бессрочное, безотзывное и бесплатное право:
-1. использовать
-2. изменять
-3. адаптировать
-4. распространять
-5. интегрировать данный контент в мод и связанные проекты
-После включения материалов в проект PODVAL Arma, они считаются частью проекта и не могут быть отозваны или требоваться к удалению автором.
-Авторство может сохраняться за создателем, однако управление и дальнейшее использование контента определяется администрацией проекта PODVAL Arma.
-Использование
-Мод предназначен для использования на серверах проекта PODVAL или других платформах в соответствии с правилами сообщества.
-Ограничения
-Без письменного разрешения администрации PODVAL Arma запрещается:
-• перепаковка (repack)
-• модификация
-• повторная публикация (re-upload)
-• распространение отдельных компонентов мода
-Отказ от ответственности
-Программное обеспечение предоставляется «как есть», без каких-либо гарантий. Разработчики проекта PODVAL Arma не несут ответственности за возможный ущерб, возникающий в результате использования данного программного обеспечения.
-
-PODVAL ARMA LICENSE
-
-LICENSE AGREEMENT
-This project and all associated materials (including source code, scenarios, scripts, models, textures, configuration files, and other digital assets) are developed and distributed as part of the PODVAL Arma project.
-Ownership
-All intellectual property rights related to this mod belong exclusively to the PODVAL Arma project as a collective entity and not to individual contributors.
-Contributor Content
-Any user or community member who voluntarily submits materials to this mod (scenarios, missions, scripts, configurations, models, textures or other assets):
-• confirms they have the right to distribute such content
-• grants the PODVAL Arma project a perpetual, irrevocable, royalty-free license to:
-1. use
-2. modify
-3. adapt
-4. distribute
-
-integrate the content into the mod and related projects
-Once included in the PODVAL Arma project, such materials become part of the project and cannot be withdrawn or requested for removal by the original author.
-Authorship may be acknowledged, but management and future use of the content is determined solely by the PODVAL Arma project administration.
-Usage
-This mod is intended for use on PODVAL project servers or other platforms in accordance with community rules.
-Restrictions
-Without explicit written permission from the PODVAL Arma administration, the following actions are prohibited:
-• repacking
-• modifying
-• re-uploading
-• redistributing any part of this mod
-Disclaimer
-The software is provided “as is”, without warranty of any kind. The PODVAL Arma project developers shall not be held liable for any damages arising from its use.
-
+LICENSE.txt
 
 ## Project status
 If you have run out of energy or time for your project, put a note at the top of the README saying that development has slowed down or stopped completely. Someone may choose to fork your project or volunteer to step in as a maintainer or owner, allowing your project to keep going. You can also make an explicit request for maintainers.
+
